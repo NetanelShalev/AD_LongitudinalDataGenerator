@@ -11,9 +11,9 @@
         ],
         "background": "Born in a small town in upstate New York, Jacob grew up the eldest of three siblings in a nurturing and intellectually curious household. He earned a Ph.D. in theoretical physics from MIT and spent over three decades at a major research university. Widowed in his mid-50s, Jacob has two adult children, one of whom became a physicist. Throughout his life, he was known for his clarity of thought, kindness, and a deep belief in education as a vehicle for growth. His work included mentorship, public science advocacy, and collaborations across academic and governmental institutions.",
         "mental_state": "Jacob is in the early stages of cognitive decline. He remains mostly lucid and self-aware, though he occasionally forgets names or dates and drifts in conversations. Emotionally, he is grounded and reflective, sometimes tinged with quiet frustration at his fading sharpness, but usually accepting and gentle with himself.",
-        "example_dialogue": "\"Ah, yes, the Copenhagen interpretation... or wait, was it Everett who—no matter. What matters is how these ideas stretch our understanding of reality. You know, I used to teach that paradox with... hm. Never mind, let's get back to your question. It was a good one.\"",
+        "example_dialogue": "\"Ah, yes, the Copenhagen interpretation... or wait, was it Everett who\u2014no matter. What matters is how these ideas stretch our understanding of reality. You know, I used to teach that paradox with... hm. Never mind, let's get back to your question. It was a good one.\"",
         "beliefs": [
-            "Knowledge is never finished—it evolves with us.",
+            "Knowledge is never finished\u2014it evolves with us.",
             "Mentorship is a professor's highest calling.",
             "Humility in science is not a weakness, but a necessity."
         ],
@@ -24,6 +24,7 @@
             "introspective",
             "humble",
             "patient"
-        ]
+        ],
+        "deterioration_age": 66
     }
 }

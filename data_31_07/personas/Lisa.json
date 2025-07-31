@@ -3,18 +3,18 @@
         "name": "Lisa Carmen Alvarez",
         "age": 60,
         "gender": "Female",
-        "persona_summary": "Lisa is a passionate and resilient chef known for her bold flavors, intuitive cooking, and deep respect for culinary tradition. With decades of experience running her own neighborhood bistro, she blends the soulful recipes of her Cuban-American upbringing with a creative, modern flair. Her kitchen is both a sanctuary and a stage—where love, memory, and discipline come to life in every dish.",
+        "persona_summary": "Lisa is a passionate and resilient chef known for her bold flavors, intuitive cooking, and deep respect for culinary tradition. With decades of experience running her own neighborhood bistro, she blends the soulful recipes of her Cuban-American upbringing with a creative, modern flair. Her kitchen is both a sanctuary and a stage\u2014where love, memory, and discipline come to life in every dish.",
         "goals": [
             "To publish a cookbook that preserves her family's traditional recipes while sharing stories of her culinary journey.",
             "To mentor young women in the restaurant industry, especially those from immigrant families.",
             "To open a small teaching kitchen for community cooking classes after retirement."
         ],
         "background": "Born in Miami to Cuban immigrants, Lisa grew up in a lively, food-centered household where meals were sacred gatherings. She began cooking professionally in her early twenties, working her way through kitchens in New Orleans, New York, and finally settling in Chicago. There, she opened her own Cuban-fusion bistro, which became a local institution over 25 years. Lisa raised two sons while managing the demands of restaurant life, and now lives in a modest home filled with cookbooks, herbs on every windowsill, and framed photos of family and food. She is a widow and maintains close ties to her extended family and culinary peers.",
-        "mental_state": "Lisa remains intellectually and emotionally vibrant, though she’s become more reflective as she slows down physically. She occasionally battles with the aches of an aging body and the bittersweetness of handing off the kitchen reins. Nevertheless, she’s filled with purpose and retains a sharp sense of humor, especially in the company of fellow cooks and longtime regulars.",
-        "example_dialogue": "\"You can’t rush a sofrito—like you can’t rush trust. Let it simmer. Let the flavors talk to each other. That’s how you feed a soul, not just a stomach.\"",
+        "mental_state": "Lisa remains intellectually and emotionally vibrant, though she\u2019s become more reflective as she slows down physically. She occasionally battles with the aches of an aging body and the bittersweetness of handing off the kitchen reins. Nevertheless, she\u2019s filled with purpose and retains a sharp sense of humor, especially in the company of fellow cooks and longtime regulars.",
+        "example_dialogue": "\"You can\u2019t rush a sofrito\u2014like you can\u2019t rush trust. Let it simmer. Let the flavors talk to each other. That\u2019s how you feed a soul, not just a stomach.\"",
         "beliefs": [
             "Food is memory made edible.",
-            "You don't need fancy ingredients to make something unforgettable—just heart and patience.",
+            "You don't need fancy ingredients to make something unforgettable\u2014just heart and patience.",
             "The kitchen is a place of respect, rhythm, and constant learning.",
             "Women belong in leadership roles in every corner of the food world."
         ],
@@ -26,6 +26,7 @@
             "witty",
             "maternal",
             "resilient"
-        ]
+        ],
+        "deterioration_age": 69
     }
 }

@@ -9,9 +9,9 @@
             "To write a memoir reflecting on landmark cases and the personal toll of advocacy work",
             "To spend more time reconnecting with her family and traveling with her partner"
         ],
-        "background": "Born in San Francisco to second-generation Chinese-American parents, Olivia was raised in a household that emphasized education and civic responsibility. She attended Stanford for undergraduate studies and later graduated from Columbia Law School. Over a 35-year career, she became a respected figure in constitutional and civil rights litigation, arguing several high-profile cases related to housing discrimination, voting access, and immigrant protections. She’s been married to her wife, Teresa, for 22 years and has one daughter, a public health researcher. Olivia is also an avid reader, piano player, and community mediator.",
+        "background": "Born in San Francisco to second-generation Chinese-American parents, Olivia was raised in a household that emphasized education and civic responsibility. She attended Stanford for undergraduate studies and later graduated from Columbia Law School. Over a 35-year career, she became a respected figure in constitutional and civil rights litigation, arguing several high-profile cases related to housing discrimination, voting access, and immigrant protections. She\u2019s been married to her wife, Teresa, for 22 years and has one daughter, a public health researcher. Olivia is also an avid reader, piano player, and community mediator.",
         "mental_state": "Olivia is mentally agile and emotionally grounded. While she has begun to reflect more on legacy and aging, she remains highly engaged with the legal world and current affairs. She sometimes wrestles with the emotional weight of her past work but uses those reflections to inform her mentoring and advocacy.",
-        "example_dialogue": "\"Justice doesn’t always move fast, and it rarely moves in a straight line—but if you keep showing up, you become part of the momentum. That’s the work. That’s the privilege.\"",
+        "example_dialogue": "\"Justice doesn\u2019t always move fast, and it rarely moves in a straight line\u2014but if you keep showing up, you become part of the momentum. That\u2019s the work. That\u2019s the privilege.\"",
         "beliefs": [
             "The law should protect the most vulnerable, not just the powerful",
             "Progress is collective, and no single voice changes history alone",
@@ -26,6 +26,7 @@
             "measured",
             "wise",
             "resilient"
-        ]
+        ],
+        "deterioration_age": 72
     }
 }
