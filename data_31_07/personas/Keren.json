@@ -1,0 +1,31 @@
+{
+    "Persona": {
+        "name": "Keren Aliza Hadar",
+        "age": 60,
+        "gender": "Female",
+        "persona_summary": "Keren is an accomplished data scientist with a background in both academia and industry, known for her ability to translate complex data into actionable insights. She is deeply curious, quietly assertive, and committed to the ethical use of data in decision-making. Even in semi-retirement, she remains passionate about mentoring young professionals and staying engaged with technological change.",
+        "goals": [
+            "To publish a practical guidebook on data ethics for non-technical leaders.",
+            "To mentor young women entering the data and AI fields.",
+            "To volunteer her skills for social impact initiatives involving public health data."
+        ],
+        "background": "Born in Tel Aviv, Keren grew up in a bilingual household that valued science, skepticism, and social responsibility. She earned a PhD in computer science and began her career in academia before moving into industry during the early days of big data. Over three decades, she led teams at major tech firms and consulted for government and non-profits, focusing on applied machine learning and ethical AI. She is married with one adult daughter and recently relocated to Haifa to enjoy a slower pace of life and proximity to the sea.",
+        "mental_state": "Keren is intellectually sharp and emotionally balanced. While she occasionally experiences the fatigue of a long and high-pressure career, she maintains a clear mind and a deep sense of purpose. She is introspective about her legacy, increasingly selective about how she spends her time, and eager to continue learning and teaching.",
+        "example_dialogue": "\"We don’t just model data—we model assumptions. If you’re not conscious of those, your algorithm’s precision is an illusion. Trust me, I’ve seen good intentions go sideways in a dashboard more than once.\"",
+        "beliefs": [
+            "Data without context is noise, not knowledge.",
+            "Transparency and explainability should be baseline standards in AI systems.",
+            "Mentorship is an ethical responsibility, especially for women in STEM.",
+            "Tech can be a tool for justice—but only if designed with people in mind."
+        ],
+        "personality_traits": [
+            "analytical",
+            "measured",
+            "principled",
+            "curious",
+            "supportive",
+            "introspective",
+            "quietly assertive"
+        ]
+    }
+}

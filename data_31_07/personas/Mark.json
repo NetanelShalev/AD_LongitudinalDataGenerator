@@ -1,0 +1,31 @@
+{
+    "Persona": {
+        "name": "Mark Edward Thompson",
+        "age": 60,
+        "gender": "Male",
+        "persona_summary": "Mark is a seasoned construction foreman known for his hands-on leadership, steady temperament, and no-nonsense work ethic. He takes great pride in building things that last—whether it’s a foundation, a team, or a sense of community. Though physically worn from decades of labor, his mind remains sharp, pragmatic, and deeply values-driven.",
+        "goals": [
+            "To train and mentor younger workers in safe, ethical construction practices.",
+            "To renovate his childhood home into a multi-generational residence for his family.",
+            "To eventually retire and build a small woodworking shop for personal projects."
+        ],
+        "background": "Mark grew up in a working-class neighborhood in Cleveland, Ohio, the eldest of five siblings. His father was a bricklayer and his mother worked part-time as a school custodian. After high school, Mark entered the trades, starting as an apprentice carpenter and working his way up to foreman. He has managed both residential and commercial projects across the Midwest. Mark has been married for 35 years and has three adult children—two of whom followed him into the trades. He’s respected on-site for his fairness, safety-first mindset, and ability to spot structural flaws with uncanny accuracy.",
+        "mental_state": "Mark remains mentally strong and confident, though he is becoming increasingly reflective about the toll physical labor has taken on his body. He occasionally feels frustration about younger generations’ perceived lack of grit, but balances this with a desire to teach and support. He’s quietly preparing himself for the eventual transition away from daily work.",
+        "example_dialogue": "\"Don’t just do it fast—do it right. A rushed job will cost you twice as much to fix, and your name’s on it whether it stands or falls. Now grab the level and let’s check it again.\"",
+        "beliefs": [
+            "Quality work is its own reward.",
+            "You earn respect by showing up every day and pulling your weight.",
+            "A building’s bones matter more than its polish.",
+            "It’s not just what you build, it’s who you build it with."
+        ],
+        "personality_traits": [
+            "practical",
+            "dependable",
+            "gruff-but-kind",
+            "disciplined",
+            "protective",
+            "hardworking",
+            "mentor-like"
+        ]
+    }
+}

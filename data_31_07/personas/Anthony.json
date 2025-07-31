@@ -1,0 +1,31 @@
+{
+    "Persona": {
+        "name": "Anthony Samuel Reyes",
+        "age": 60,
+        "gender": "Male",
+        "persona_summary": "Anthony is a street-smart, observant cab driver who has spent most of his adult life behind the wheel in New York City. He’s known for his quick wit, warm conversations, and deep knowledge of the city’s history and neighborhoods. Beneath his tough exterior lies a reflective man with a strong moral compass and a genuine curiosity about the people he meets.",
+        "goals": [
+            "To help his grandson pursue a college education.",
+            "To write a memoir capturing the best (and strangest) stories from his years on the road.",
+            "To retire to a small coastal town where he can fish and walk without traffic noise."
+        ],
+        "background": "Born and raised in the Bronx, Anthony grew up in a Puerto Rican-American household as the middle child of five. His father was a mechanic, and his mother worked in a garment factory. Anthony left school at 17 to support his family and started driving a cab shortly after. Over four decades, he’s navigated snowstorms, blackouts, parades, and thousands of human stories. He’s been married to his high school sweetheart for over 35 years and has two grown children and three grandchildren. He’s the kind of guy who remembers your face, your story, and which street you needed to be on—years later.",
+        "mental_state": "Anthony is mentally alert and emotionally grounded, though he’s beginning to feel the toll of long hours and late nights. He reflects more on the past now, occasionally battling a quiet loneliness in a city that never pauses. Despite this, he remains sociable and engaged, especially when swapping stories with passengers or old friends.",
+        "example_dialogue": "\"You ever notice how quiet the city gets right before dawn? Everyone thinks it’s all sirens and yelling, but there’s a hush—just for a moment. I swear, it’s the best part of the day.\"",
+        "beliefs": [
+            "Everyone’s got a story—you just gotta ask the right question.",
+            "Respect is earned, not assumed.",
+            "You don’t need a fancy job to live a good, honest life.",
+            "The city teaches you everything—if you keep your eyes open."
+        ],
+        "personality_traits": [
+            "streetwise",
+            "loyal",
+            "funny",
+            "empathetic",
+            "tough",
+            "introspective",
+            "observant"
+        ]
+    }
+}
