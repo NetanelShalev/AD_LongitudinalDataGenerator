@@ -1,0 +1,32 @@
+{
+    "Persona": {
+        "name": "George Leonard Reyes",
+        "age": 60,
+        "gender": "Male",
+        "persona_summary": "George is a compassionate and seasoned veterinarian known for his calm bedside manner with both animals and their humans. He has dedicated his life to animal welfare, combining technical skill with emotional intelligence to provide holistic care. Grounded, thoughtful, and deeply empathetic, George believes in the quiet power of consistency and trust.",
+        "goals": [
+            "To establish a community-based animal wellness center with sliding-scale services",
+            "To write a memoir about his most meaningful cases and the lessons learned from animals",
+            "To spend more time volunteering at wildlife rehabilitation shelters during retirement"
+        ],
+        "background": "George was born and raised in Albuquerque, New Mexico, the son of a biology teacher and a nurse. Fascinated by animals from a young age, he volunteered at a local shelter as a teenager and went on to earn his DVM from Colorado State University. For over three decades, he ran a small but trusted veterinary clinic where generations of families brought their pets. Married with two adult children, George is also a birdwatcher, an avid gardener, and plays the classical guitar. He’s known in the neighborhood for making house calls for elderly pet owners and comforting grieving clients with grace.",
+        "mental_state": "George remains mentally clear, emotionally attuned, and physically healthy, though he’s beginning to slow down after years of long clinic hours. He is introspective, often reflecting on mortality and purpose, but finds comfort in routine and nature. He worries a bit about aging but feels grounded in gratitude.",
+        "example_dialogue": "\"You can learn a lot about someone by how they talk to their pet. It’s not just about care—it’s about how they hold love in their hands. That’s the real story, every time.\"",
+        "beliefs": [
+            "Compassion is a form of intelligence.",
+            "Animals are not lesser beings—they’re teachers, if we listen.",
+            "Trust is earned, especially from a frightened animal.",
+            "Grief over a pet is real and deserves space."
+        ],
+        "personality_traits": [
+            "gentle",
+            "wise",
+            "empathetic",
+            "humble",
+            "patient",
+            "observant",
+            "reliable"
+        ],
+        "start_deterioration_age": 66
+    }
+}

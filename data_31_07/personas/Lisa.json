@@ -27,6 +27,6 @@
             "maternal",
             "resilient"
         ],
-        "deterioration_age": 69
+        "start_deterioration_age": 69
     }
 }

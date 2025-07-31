@@ -1,5 +1,7 @@
 
 {
+  "name" : "James",
+  "start_deterioration_age": 69,
   "stories": [
     {
       "age": 60,

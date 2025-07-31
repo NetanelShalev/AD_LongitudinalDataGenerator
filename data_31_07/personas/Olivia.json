@@ -27,6 +27,6 @@
             "wise",
             "resilient"
         ],
-        "deterioration_age": 72
+        "start_deterioration_age": 72
     }
 }
