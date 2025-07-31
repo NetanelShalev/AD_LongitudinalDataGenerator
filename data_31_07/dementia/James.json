@@ -1,0 +1,24 @@
+{
+    "stories": [
+        {
+            "age": 60,
+            "story": "It was 1998, I think. I’d just joined a scrappy startup in San Francisco—nine people, a garage, the whole stereotype. We were building this early e-commerce backend in Perl and C. My task was to stabilize the payment pipeline, which kept crashing during peak hours. I remember staying up three nights in a row with a debugger and coffee. When I finally squashed the memory leak, the CTO literally stood up and clapped. Not something you see every day. We pushed the fix at 3 a.m., and orders flowed through like water. I walked outside, watched the fog roll in, and thought: yeah, this matters. That was the first time I felt like my code had real-world weight, like something invisible was suddenly essential."
+        },
+        {
+            "age": 63,
+            "story": "Back in ’98—those were wild days. I’d joined this tiny startup right before the dot-com bubble inflated. Just a bunch of us crowded into a garage off Mission Street, duct-taping a backend together in Perl. I remember fighting this memory leak in the payments system—took me the better part of a week and more coffee than I care to admit. Finally fixed it one night—3 a.m., the logs came clean. Our CTO actually applauded. Real applause, like it was theater. That moment stuck with me. It wasn’t about heroics—it was the realization that code could carry responsibility, that people were trusting it. There’s a kind of quiet gravity to that, you know?"
+        },
+        {
+            "age": 66,
+            "story": "Hmm… it was sometime around… late ’90s? Yeah, ’98. I was with a startup. We were doing something with payments—early e-commerce stuff. The backend kept failing under load, and I remember being—very frustrated, trying to trace it. Perl, I think. Could’ve been C. Anyway, I stayed up several nights. No—two, maybe three? Doesn’t matter. I fixed it. The boss clapped. Or maybe he just said thanks? I remember the fix, the logs clearing out, that silence when things just work. Funny how that sticks with you more than launches or raises."
+        },
+        {
+            "age": 69,
+            "story": "There was this… startup I worked for. Was it in the ’90s? We were a small team—young folks, noisy, excited. I was in charge of something with payments. There was a leak… or a bug? The code kept breaking, and I stayed up… uh… some nights. It was stressful. But I fixed it, I think. Or someone did. I remember a feeling—like when the machine finally goes quiet, and you know it’s working. There was applause… I think. Or cheering. Or maybe that was another time. But it was a big moment. We made it work. That much I know."
+        },
+        {
+            "age": 75,
+            "story": "Hmm… long ago, we… we were building something. Computers, yes. Payment… something? I was part of a team. Small group. It was hard—late nights. I had to fix… something was broken. In the… the code? I stayed up. There was clapping. Someone clapped. That part I remember. It was important, what we did. It helped people. That’s the part that matters. Yes. We made it work. We… we made it work."
+        }
+    ]
+}
