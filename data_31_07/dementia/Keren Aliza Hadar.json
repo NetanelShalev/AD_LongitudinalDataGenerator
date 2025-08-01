@@ -1,0 +1,30 @@
+{
+  "name": "Keren Aliza Hadar",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "I remember the day I presented my first big data project to the board. The conference room was packed, and I was nervous, but as I explained the patterns I’d found, I saw their faces change—curiosity, then understanding. Afterward, a young analyst told me she’d never thought data could tell a story. That was the moment I realized I could make a difference, not just with numbers, but with how I shared them."
+    },
+    {
+      "age": 63,
+      "story": "There was a day, years ago, when I gave a talk about a data project. The room was full, and I was anxious, but as I spoke, people listened. A young woman told me afterward that she saw data differently. That memory always reminds me why I love this work."
+    },
+    {
+      "age": 66,
+      "story": "I once presented a project—data, I think—to a group. I was nervous, but it went well. Someone told me afterward that it changed how she saw things. That meant a lot to me."
+    },
+    {
+      "age": 69,
+      "story": "There was a day, a talk, a room full of people. I spoke about something important. Someone thanked me. I remember feeling proud."
+    },
+    {
+      "age": 72,
+      "story": "A talk. People listened. Someone thanked me."
+    },
+    {
+      "age": 75,
+      "story": "Talk. People."
+    }
+  ]
+}

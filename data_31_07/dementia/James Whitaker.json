@@ -1,0 +1,30 @@
+{
+  "name": "James Whitaker",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "I’ll never forget the night I debugged that impossible memory leak with my son. He was just starting out, and we sat side by side, tracing lines of code until sunrise. I explained my process, he challenged my assumptions, and together we found the culprit—a single misplaced pointer. We celebrated with cold pizza and laughter. That night, I realized he’d become a real engineer, and I felt a quiet pride I still carry."
+    },
+    {
+      "age": 63,
+      "story": "There was a night, years ago, when my son and I hunted down a nasty bug in some code. We worked late, side by side, tracing through lines, talking through logic. He spotted something I missed—a pointer, I think. We fixed it, laughed, and ate cold pizza. That’s when I knew he was really growing into the craft."
+    },
+    {
+      "age": 66,
+      "story": "I remember working late with my son, fixing a bug. We went through code, line by line. He found the mistake—a pointer, maybe. We laughed, ate pizza. It was a good night."
+    },
+    {
+      "age": 69,
+      "story": "There was a night with my son. We worked on code. He found something I missed. We fixed it. Ate pizza. I remember feeling proud."
+    },
+    {
+      "age": 72,
+      "story": "Night. My son and I. Code. Bug. Fixed it. Pizza."
+    },
+    {
+      "age": 75,
+      "story": "Son. Code. Night."
+    }
+  ]
+}

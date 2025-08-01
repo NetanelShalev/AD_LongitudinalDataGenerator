@@ -1,0 +1,30 @@
+{
+  "name": "Olivia Margaret Chen",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "I remember the day I won my first big civil rights case. The courtroom was packed, and as the verdict was read, I felt a wave of relief and pride. My mentor squeezed my hand, and I saw tears in the eyes of the family I represented. That moment reminded me why I became a lawyer—to stand up for those who need it most. We celebrated with coffee and laughter in the courthouse lobby."
+    },
+    {
+      "age": 63,
+      "story": "There was a day, years ago, when I won an important case. The courtroom was full, and I felt proud. My mentor was there, and the family I helped was grateful. We celebrated together. That memory keeps me going."
+    },
+    {
+      "age": 66,
+      "story": "I remember winning a case—a big one. The courtroom was crowded. My mentor was there. The family thanked me. We celebrated."
+    },
+    {
+      "age": 69,
+      "story": "There was a day, a case, a courtroom. My mentor, a family. We won. I remember feeling proud."
+    },
+    {
+      "age": 72,
+      "story": "A case. Courtroom. Mentor. Family. We won."
+    },
+    {
+      "age": 75,
+      "story": "Courtroom. Case."
+    }
+  ]
+}

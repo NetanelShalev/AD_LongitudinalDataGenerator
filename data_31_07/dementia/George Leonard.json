@@ -1,0 +1,30 @@
+{
+  "name": "George Leonard",
+  "start_deterioration_age": 75,
+  "stories": [
+    {
+      "age": 60,
+      "story": "I’ll never forget the night I stayed up with Mrs. Callahan’s old retriever, Max. He was sick, and she was scared, so I brought my bag and sat with them in their living room. Max rested his head on my knee while I explained what was happening, and Mrs. Callahan told me stories about when he was a pup. By morning, Max was comfortable, and Mrs. Callahan was at peace. That’s the kind of night that reminds me why I do this work—being there, really being there, when it matters."
+    },
+    {
+      "age": 63,
+      "story": "There was a night, years ago, with Max, Mrs. Callahan’s retriever. He was ill, and I stayed at their house, sitting on the floor beside him. Mrs. Callahan talked about his puppy days, and I tried to comfort them both. By sunrise, Max was resting easy, and Mrs. Callahan seemed calmer. Those moments—quiet, honest—are what make this job meaningful."
+    },
+    {
+      "age": 66,
+      "story": "I remember a night with a dog—Max, I think. Mrs. Callahan’s. He was sick, and I stayed over. We sat together, her telling stories, me listening. By morning, things felt lighter. It’s the small things, being there, that matter most."
+    },
+    {
+      "age": 69,
+      "story": "There was a night, a dog—Max?—and an old woman. I stayed with them. She talked, I listened. The dog rested. Morning came. I remember feeling... useful."
+    },
+    {
+      "age": 72,
+      "story": "A night with a dog and a woman. I was there. She talked. The dog was sick. I stayed. Morning came."
+    },
+    {
+      "age": 75,
+      "story": "Dog. Night. Woman. I was there."
+    }
+  ]
+}
