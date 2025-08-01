@@ -1,0 +1,30 @@
+{
+  "name": "James Whitaker",
+  "start_deterioration_age": 66,
+  "stories": [
+    {
+      "age": 60,
+      "story": "It was a Friday night, late in '95, and we’d just finished shipping the first stable release of our internal messaging system at Telcor. The whole team was exhausted—half of us were living on vending machine snacks and caffeine—but that night, something clicked. I remember walking back to my desk and seeing Megan, our junior dev, quietly debugging a nasty socket issue we’d been chasing for days. I pulled up a chair, and together we found it: a race condition buried in a poorly handled reconnect. She cracked it, not me. That moment stuck with me—not just because we solved it, but because it reminded me how important it is to listen, to make space. I wrote her a thank-you note that weekend. She's now head of engineering at a startup, and still writes the cleanest code I've ever read."
+    },
+    {
+      "age": 63,
+      "story": "Back in ’95, we’d just pushed our first major internal release at Telcor—an early messaging system. The kind of week where you forget what daylight looks like. Megan, a junior dev at the time, was still at her terminal when most of us had packed up. There was a bug—something in the reconnect logic. I remember sitting next to her as we walked through the stack trace. It was a race condition—subtle, nasty. She found it. That moment has always stayed with me. Not because we fixed the bug, but because of the way she calmly reasoned through it, even under pressure. I sent her a note after—just a small thanks. She's doing great things now. That kind of talent—you recognize it when you see it."
+    },
+    {
+      "age": 66,
+      "story": "There was this time, years ago, at Telcor—we had just launched something. Messaging... platform? No, system. Megan, one of the juniors then, was still there late. Most of the team had gone home. There was a bug—we were getting random disconnects. Socket-level, I think. I pulled up a chair beside her. She walked through it calmly, step by step. It ended up being a race condition. She spotted it before I did. That always stuck with me. The grace under pressure. I think I sent her a note after? Yes. She’s doing well now. Probably leading teams. It reminds me how the best moments in tech aren’t the launches—they’re those quiet breakthroughs. Shared ones."
+    },
+    {
+      "age": 69,
+      "story": "There was this late night, long ago... Telcor, right? Messaging thing. We were trying to fix... disconnections? Something with sockets. Megan—she was new then—stayed after everyone left. Quiet, focused. I joined her, we looked at logs or maybe code. She found the issue. A... timing problem? Yes, race condition. Smart move. I remember... being proud, deeply. I might’ve written her a note. Or told her. She moved on to... a good role, I think. It’s funny, what you remember. The pressure, the glow of the monitors... but mostly how someone grows in a single moment. That’s what I held onto."
+    },
+    {
+      "age": 72,
+      "story": "Years back, we were... finishing something big. Telcor, maybe? Code was acting up—kept dropping out. Some issue in, uh... the messaging thing. Sockets? Megan was the one who—she stayed after, kept digging. I remember sitting there with her, but she really did the heavy lifting. Found the bug—timing or thread thing. She had this calm way, you know? I was just... watching it click for her. I think I sent her a note after. Or maybe said it. She’s leading things now, I believe. Good head on her. That night—it’s fuzzy in parts—but it felt like watching someone step into their own."
+    },
+    {
+      "age": 75,
+      "story": "There was a night. We were working. Or shipping? Something... tech-related. Megan... she was there. Young. Smart. She stayed behind when most left. Something wasn’t working right—kept disconnecting. She... she found what was wrong. I sat beside her. Quiet moment. We fixed it. Or she did. It mattered. Not the bug, but the way she handled it. I told her—maybe in a note, maybe in person—that she’d done well. That stuck. I don’t remember all the code, but I remember her calm. That’s what stays, in the end. How people rise, even in the quiet hours."
+    }
+  ]
+}

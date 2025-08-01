@@ -1,0 +1,32 @@
+{
+  "name": "Keren Aliza Hadar",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "It was in 2007, just before the term 'data science' became a buzzword. I was consulting with the Ministry of Health on a public health dashboard for infectious disease surveillance. I remember sitting in this cramped conference room, trying to convince a room full of policy folks that their data wasn’t telling them the whole story. They’d been tracking raw incidence counts without adjusting for population density. I sketched a quick heat map model on the whiteboard—redrawing how they should look at it—and you could see the shift on their faces. That’s the moment I realized the power of visual intuition. We rolled out a prototype in two months. It wasn’t perfect, but it made decision-makers pause and rethink resource allocation. That feeling—that data could directly change lives—that stayed with me. That’s when I truly felt I was doing something that mattered beyond the models."
+    },
+    {
+      "age": 63,
+      "story": "It was back in... I think 2007? I was advising the Ministry of Health on some early public health dashboard work. We were in this very outdated meeting room—bad coffee, clunky projectors—and they were looking at disease counts without any population adjustment. I remember grabbing a marker and sketching a revised distribution on the whiteboard. Just a rough heat map, really. The room went quiet. People realized their models had been skewed all along. We quickly moved to a prototype that adjusted for density and mobility, and it actually shifted how some interventions were prioritized. It wasn’t the most technically advanced project I worked on, but it made a real-world difference. That’s what I always tried to teach my junior team—don’t just optimize your model, optimize for meaning."
+    },
+    {
+      "age": 66,
+      "story": "Let me think—there was a time, early on, when I was consulting with the health ministry. 2006 or 2007, maybe. They had this disease data, but it wasn’t adjusted... for density? Yes, population density. They were making decisions off of raw numbers. I remember drawing something—on a board—something visual that helped them see the flaw. A map. A heat map, yes. That helped them reframe it. We created a prototype dashboard afterward. It shifted some resource decisions. Not perfect, but impactful. I remember how satisfying it was, watching people truly understand what the data meant. It felt like more than code. Like I was part of something that touched actual lives. Those moments were the ones that kept me in the field for so long."
+    },
+    {
+      "age": 69,
+      "story": "There was a dashboard... I helped build it. For the health department, some years back. We were... trying to track illness? No, not track—help them see it better. The data wasn’t right—not wrong, just not... adjusted? I think I drew something on a board. A heat... shape? It helped. They changed some decisions after that. We made a tool. A dashboard. People used it. It helped. That’s the part I remember best. The feeling that the data mattered. That I mattered in that moment. Not just numbers. Real people. That’s why I stayed in it so long, I suppose."
+    },
+    {
+      "age": 72,
+      "story": "Years ago, there was this time—I worked on something for the... health place. Ministry? We had some maps, or maybe graphs. They weren’t seeing things quite right, so I drew it—on the wall, maybe? A map, or some color zones. They understood after that. We made... a system. I helped build it. People used it. It helped them, I think. I felt proud. It’s funny—I can’t remember the numbers, but I remember how quiet the room went when they got it. That silence when something lands. It was important. That work... it meant something to me."
+    },
+    {
+      "age": 75,
+      "story": "I once helped... fix something. Some data, yes. For health people. The data was... not right, or not full. I showed them—on a board, or a screen—something clearer. A picture of where people were getting sick. Then it changed. They saw it. I helped make it better. We built... something after. A thing they used. I don’t remember all of it. But I know it helped. I know I was useful. And that matters. That’s what I hold on to. The helping part."
+    }
+  ]
+}
+
+
