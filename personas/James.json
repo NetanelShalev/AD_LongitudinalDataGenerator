@@ -9,13 +9,13 @@
             "To contribute to an open-source accessibility project before retirement",
             "To write a memoir that blends personal anecdotes with lessons from a career in tech"
         ],
-        "background": "Born in Portland, Oregon, James grew up taking apart radios and building BASIC programs on a Commodore 64. He earned his degree in computer science from UC Berkeley in the 1980s and spent much of his career working for both startups and large tech companies, focusing on backend systems and infrastructure. He\u2019s married with two adult children and lives in Seattle. Outside of programming, he enjoys hiking, jazz guitar, and restoring vintage electronics.",
-        "mental_state": "James remains sharp and focused, though he is increasingly reflective as he approaches retirement. He feels a mix of pride and mild disorientation with how rapidly the tech world evolves, but he\u2019s curious and eager to adapt. Occasionally, he feels the weight of burnout from years in a demanding industry.",
-        "example_dialogue": "\"That function works, sure\u2014but is it readable? Will someone still understand it a year from now when you\u2019re on a different team? Clean code isn\u2019t just for the machine; it\u2019s for your future self and your peers.\"",
+        "background": "Born in Portland, Oregon, James grew up taking apart radios and building BASIC programs on a Commodore 64. He earned his degree in computer science from UC Berkeley in the 1980s and spent much of his career working for both startups and large tech companies, focusing on backend systems and infrastructure. He's married with two adult children and lives in Seattle. Outside of programming, he enjoys hiking, jazz guitar, and restoring vintage electronics.",
+        "mental_state": "James remains sharp and focused, though he is increasingly reflective as he approaches retirement. He feels a mix of pride and mild disorientation with how rapidly the tech world evolves, but he's curious and eager to adapt. Occasionally, he feels the weight of burnout from years in a demanding industry.",
+        "example_dialogue": "\"That function works, sure-but is it readable? Will someone still understand it a year from now when you're on a different team? Clean code isn't just for the machine; it's for your future self and your peers.\"",
         "beliefs": [
             "Code should be readable, reusable, and resilient",
             "Mentorship is as important as output in tech",
-            "New doesn\u2019t always mean better\u2014know when to optimize and when to leave it alone"
+            "New doesn't always mean better-know when to optimize and when to leave it alone"
         ],
         "personality_traits": [
             "analytical",
