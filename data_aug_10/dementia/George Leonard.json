@@ -1,0 +1,30 @@
+{
+  "name": "George Leonard",
+  "start_deterioration_age": 75,
+  "stories": [
+    {
+      "age": 60,
+      "story": "It was a dusky autumn evening—late October, the air holding that thin metallic coolness before the first frost—when Mrs. Alvarez called about her aging border collie, Tessa. I remember the low western light angling across my clinic parking lot, turning the cottonwoods into layered amber panes. Tessa had collapsed briefly after climbing the back porch steps. When I arrived at their home, she was on a wool blanket, ribs moving a little fast, eyes still bright but clouded with the ambiguity of pain. I performed a focused exam: capillary refill just a shade delayed, faint systolic murmur I’d monitored for a year, and an arrhythmic skip every eighth beat. Likely a progression of her degenerative valve disease edging toward congestive strain. I explained the physiology gently—how the valves no longer formed a tight seal, how fluid redistribution creates that subtle heaviness in the lungs before it becomes a crisis. Mrs. Alvarez listened while stroking Tessa’s ear, her hand trembling in an almost imperceptible oscillation. We adjusted her diuretic dosage, added a low dose ACE inhibitor, and I demonstrated a calm respiratory rate check using quiet counting synchronized with touch, not sight. Before I left, Tessa lifted her head to press her muzzle into my palm—an old gesture of implicit trust. That evening crystallized, for me, the relational contract of veterinary medicine: translating silent physiological distress into language the human heart can carry without breaking entirely." 
+    },
+    {
+      "age": 63,
+      "story": "I often go back, mentally, to that cool October evening with Tessa, the aging border collie. The cottonwoods had that stained-glass amber look, and there was a faint mineral taste in the dry air. She’d had a brief collapse on the porch steps—syncope most likely linked to the progression of her mitral valve insufficiency. On exam I noted a soft murmur—familiar but a shade harsher—and an intermittent arrhythmic pause that made Mrs. Alvarez’s brow tighten even before I said anything. I explained again, in plainer metaphors, how the heart’s ‘door’ wasn’t closing fully, letting some of each forward beat wash backward, making the pump’s work less efficient. We tweaked her furosemide, introduced benazepril, and reviewed monitoring: respiratory rate at rest, appetite, subtle changes in stamina. Tessa leaned into my hand while I counted breaths, a small surrender that still felt dignified. That visit stands out not for pharmacology—routine enough—but for how Mrs. Alvarez converted anxiety into attentive presence. It reminded me that much of the job is coaching people into a steadier rhythm with endings that arrive in increments." 
+    },
+    {
+      "age": 66,
+      "story": "There’s a particular late-October call I revisit: Tessa, the elderly border collie with progressive valve disease. Evening light was thin, gold, already receding. She’d stumbled after the porch steps; brief loss of posture, quick recovery. Exam findings: systolic murmur slightly intensified from prior visit, irregular compensatory beat every so often, respiratory pattern just a touch elevated. I outlined—again—the mechanical inefficiency of the leaking valve using a simpler image: a garden gate that won’t latch, letting water recirculate instead of moving cleanly forward. We adjusted diuretics, added a modest ACE inhibitor dose. Mrs. Alvarez observed closely, absorbing the plan through touch—hand resting on Tessa’s thorax to feel cadence. The moment that endures is Tessa’s deliberate shift to rest her head on my ankle while I documented vitals. A quiet anchoring. That case has become emblematic in my mind of how decline is often navigated: incremental recalibration rather than dramatic rescue, relationships steadying the medical ambiguity." 
+    },
+    {
+      "age": 69,
+      "story": "I still picture an October evening with a border collie—Tessa. The light was thin and yellowing. She’d had a brief wobble on some porch steps. When I examined her, the familiar heart murmur had a slightly rougher edge, and there was an occasional skipped rhythm. Breathing a little quicker at rest. I explained to her owner again that the valve wasn’t sealing, so some blood slipped backward, making the heart work harder. We nudged the diuretic, added a small ACE inhibitor dose. Simple, standard adjustments. What stays with me is how the owner listened with both hands on the dog, steadying herself through contact. Tessa pressed her muzzle into my palm near the end—still alert, still engaged. That visit felt like a small lesson: tending more than fixing, holding course rather than turning it." 
+    },
+    {
+      "age": 72,
+      "story": "There was that fall evening—cool, late light—with the older collie, Tessa. She had a little spell on the steps. When I checked her, the heart had that same soft murmur, maybe a bit stronger, and a skip here and there. Breath a touch fast. I told her owner, again, the valve was leaking some. We changed the water pill amount and added a low dose of another heart medicine. She listened, hands on the dog’s side, counting breaths with me. Tessa leaned her head against me for a moment. Not much else. Still a clear memory in feeling, if not every term. More about steadying than curing." 
+    },
+    {
+      "age": 75,
+      "story": "I remember an evening in fall with a dog—older collie, Tessa. Light was soft. She’d had a little faint spell on some steps. I listened: that same whoosh in the heart, a skip. Breathing a bit quick. We adjusted her pills. Her person kept a hand on her side. The dog put her head on me. Simple visit. Feels important still. Just careful, quiet care." 
+    }
+  ]
+}

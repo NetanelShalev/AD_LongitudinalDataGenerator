@@ -1,0 +1,30 @@
+{
+  "name": "Mark Edward Thompson",
+  "start_deterioration_age": 69,
+  "stories": [
+    {
+      "age": 60,
+      "story": "The build that has lodged itself most firmly in my mind wasn’t the tallest structure or the most lucrative contract; it was a modest two-story addition to a century-old house on the corner of Ridge and Maple—a place with settling lines like faint crow’s feet. The challenge lay in marrying new load paths to an original balloon frame whose sill plates had suffered quiet moisture wicking over decades. I remember the first morning we opened up the cladding: cedar siding releasing that dry, resinous scent, revealing studs that were still true in vertical but compromised at their feet. Instead of ripping wholesale, we staged a sequence of temporary shoring walls, transferring loads in measured phases so we could sister and splice without inducing differential settlement. A younger carpenter argued for speed—full demo, rebuild clean—but I insisted the existing bones, though aged, carried a narrative and dimensional character modern lumber rarely replicates. We employed a staggered pattern of LVL reinforcements, pre-drilling to avoid splitting, bedding new sill segments on a capillary break and properly flashed. There was a moment, setting the last engineered beam, when all the plumb lines, laser points, and human eyes agreed—structure at rest, harmonized. End of the final day, as golden light caught the fresh fascia, the homeowner ran a hand along a transition seam you couldn’t find unless you’d made it. What stays is the satisfaction of restraint: strengthening without erasure, teaching the crew that craftsmanship isn’t maximal intervention but calibrated respect for what endures." 
+    },
+    {
+      "age": 63,
+      "story": "I keep going back to that addition we tied onto the old balloon-framed house at Ridge and Maple. Opening the siding showed sill plate rot in patches—not catastrophic, but enough to demand a careful, staged approach. Instead of stripping everything, we built temporary interior shoring so we could replace and sister members in a controlled sequence. We laid in LVLs where loads concentrated, used proper capillary breaks under new sill sections, and detailed flashing to keep history from repeating. A newer guy wanted to clear it all and frame fresh; I used it as a teaching moment about preserving what’s sound and straight. When the last beam settled, the lines aligned cleanly—no forced persuasion. The owner traced a joint he couldn’t see. That quiet validation reinforced that good work sometimes looks like nothing dramatic happened." 
+    },
+    {
+      "age": 66,
+      "story": "There was a house addition where we married new framing to an old balloon frame. Lower sills had some rot, so we shored in sections, swapped bad portions, sistered studs, added LVLs where needed. A younger carpenter pushed for full tear-out; we kept what remained solid. Installed a capillary break and flashing to stop future wicking. When we set the final beam, everything lined up without forcing. The owner couldn’t spot where old ended and new began. That felt like proof of doing it right—quiet, exact, respectful." 
+    },
+    {
+      "age": 69,
+      "story": "I remember tying a new addition onto an old house—balloon frame, some rot at the sills. We braced, replaced bad sections bit by bit, sistered studs, dropped in LVLs. Didn’t rip everything out like one of the young guys wanted. Put proper barrier under the new sill. Final beam went in, lines true. Owner ran a hand along the wall and couldn’t find the seam. That was the good part. Care over speed." 
+    },
+    {
+      "age": 72,
+      "story": "There was that old house job. Some rotten sill spots. We braced, fixed sections, added new laminated beams, kept the good studs. Set the last beam and it all looked straight without fighting it. Owner couldn’t tell new from old. That stuck with me. Taking time instead of tearing out everything." 
+    },
+    {
+      "age": 75,
+      "story": "Old house addition. Rot in spots. We held it up, changed bad wood, put in strong beams. Kept what was still good. Final piece sat right. Owner couldn’t see the join. That’s what I keep: steady, careful work." 
+    }
+  ]
+}
