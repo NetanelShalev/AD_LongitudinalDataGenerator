@@ -1,6 +1,7 @@
 {
-  "character": "Eva Sanderson",
-  "retellings": [
+  "name": "Eva Sanderson",
+  "start_deterioration_age": 66,
+  "stories": [
     {
       "age": 60,
       "story": "It was the final week of the semester, and we were reading 'Beloved' in my senior class. I asked them how memory shapes identity, and Jamie—a quiet, thoughtful kid who barely spoke all year—raised his hand. He shared a story about his grandmother, who used to hum old spirituals while baking, and how those songs stayed with him. The room was silent. His voice trembled, but he held the space. That moment was electric—the kind you hope for as a teacher. I saw something open in the class that day. Afterward, Jamie lingered to thank me for ‘making room’ for voices like his. It reminded me why I started teaching in the first place—not for the grades or grammar drills, but for moments of unexpected truth, when literature unlocks something personal."

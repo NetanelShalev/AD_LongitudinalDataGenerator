@@ -1,7 +1,7 @@
 {
-  "character": "Jacob Stein",
-  "persona_summary": "A physics professor whose storytelling reflects subtle, progressive cognitive decline beginning at age 68.",
-  "retellings": [
+  "name": "Jacob Stein",
+  "start_deterioration_age":72,
+  "stories": [
     {
       "age": 60,
       "story": "It was 1993, my first time speaking at the International Quantum Symposium in Geneva. I was presenting on particle entanglement models—new territory then. I still remember walking through the halls of CERN, wide-eyed, humbled. The audience was engaged, nodding, scribbling. Afterward, a young physicist from Tokyo approached me. His questions were incisive, and we ended up discussing quantum coherence for nearly three hours over espresso in the garden. I was struck by his clarity—and his humility. That conversation stayed with me for years. It reminded me that science lives not just in breakthroughs, but in dialogue. Rachel had insisted I bring a proper blazer, said I’d thank her later. She was right, as always."

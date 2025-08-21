@@ -1,7 +1,7 @@
 {
-  "character": "Mike Donovan",
-  "memory_title": "The Night in D.C.",
-  "retellings": [
+  "name": "Mike Donovan",
+  "start_deterioration_age": 64,
+  "stories": [
     {
       "age": 40,
       "story": "It was pouring that night. Not just rain — sheets, like someone upstairs was angry. I was in D.C., tailing a lobbyist with ties to a pharmaceutical PAC. I'd been on him for three weeks, tracking his movements, digging into financials, the usual. But that night... that night, I got lucky. I’d followed him to this steakhouse on K Street, same place he always went when he wanted to feel untouchable. But this time, he wasn’t alone. Senator Matheson slid into the booth across from him. I watched through the window as they exchanged folders — manila, thick, hush-hush. That was it. The break. The next day, I had the surveillance photos. We ran the story two weeks later. It triggered a Senate ethics probe. That moment in the rain? That’s the moment I knew I was doing the work I was meant to do."
