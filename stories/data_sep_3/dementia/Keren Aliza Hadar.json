@@ -1,0 +1,30 @@
+{
+    "name": "Keren Aliza Hadar",
+    "start_deterioration_age": 72,
+    "stories": [
+        {
+            "age": 60,
+            "story": "I can still see the room—fluorescent hum, a horseshoe of skeptics, a projector that wanted to show off. I had planned dense slides for the public health board, but the faces told me I’d lose them by slide three. So I closed the deck and opened the console. We traced the data lineage in real time: ingestion from clinic forms, validation rules, enrichment joins, aggregation paths. I exposed the audit table and we watched a mid-week latency spike crawl down the pipe like a slow leak. The nurse in the back, the one with a clipped badge and tired eyes, leaned forward when I filtered on her facility. We followed her manual entries—timestamps, IDs, transforms—until they surfaced in the dashboard she’d been told to trust. I could feel the room change when they saw the path end-to-end, not as a block diagram but as row-level truth. The policy lead who’d been braced for a fight relaxed his jaw. I wrote down the two fixes we needed: tighter provenance on the enrichment step and a dashboard note that explained lag in plain words. When we ended, the nurse said, ‘Thank you for letting me see where my typing goes.’ That sentence stays with me. Trust isn’t a promise. It’s a trace you can follow."
+        },
+        {
+            "age": 63,
+            "story": "The meeting started with folded arms. I tossed the slides and opened a shell. We stepped through lineage like a walk: intake, validate, enrich, roll-up. I pulled up the audit rows and found the mid-week lag, then drilled until the join that caused it admitted its cause. The nurse in the back watched her entries move from form to table to chart. I said, ‘This is the path your work takes.’ Heads tipped forward. The room softened. We agreed on two fixes and wrote them on the whiteboard in big letters. On the way out, the nurse told me seeing the path made her trust the chart again. That felt like the real outcome."
+        },
+        {
+            "age": 66,
+            "story": "Public health board. I chose code over slides. We traced data end to end: forms in, rules, joins, sums. The audit table showed a mid-week hiccup. I followed it down to a late job and an eager join. The nurse in the back tracked her own rows with her eyes. When they appeared in the graph, she exhaled. The room changed. We wrote simple fixes and shipped them later that week. I remember the relief more than the code. Transparency is a tool, not a slogan."
+        },
+        {
+            "age": 69,
+            "story": "Board room. I closed the slide deck and showed the path instead. Ingest, validate, enrich, aggregate—one step at a time, with real rows on the screen. We opened the audit table and saw the mid-week lag sitting there like a slow knot. I traced it down to a join that arrived too early for its partner, which turned a clean flow into a wait. The nurse in the back—the one who enters half the city by hand—watched her typed rows move: form to table to transform to chart. I said, ‘This is the path your work walks.’ She smiled, small but real. We wrote two fixes on the whiteboard in big letters: tighten provenance at the enrichment step, add a clear note on the dashboard about expected lag. The room felt easier after that. Arms unfolded. Questions turned into checks we could run. I liked the feeling of hands open instead of fists. Transparency works best when it is slow and very plain."
+        },
+        {
+            "age": 72,
+        "story": "I remember showing the line the data walks. Not the picture slide, the real steps. We found a mid-week slow spot and fixed it with a small change and a clear note. A nurse saw her rows show up. She said she trusted the chart again. That sentence is the part that stays. The rest is shapes and screens in my head. The feeling is clear… the feeling is clear."
+        },
+        {
+            "age": 75,
+        "story": "Room with light. We traced the path. Forms to tables to the chart. There was a slow place; we named it and made it small. A nurse watched her typing become a line. She breathed out. I keep that. The words fade; the path shape stays. Trust is a line you can follow with your finger… with your finger."
+        }
+    ]
+}
