@@ -1,0 +1,22 @@
+[project]
+name = "nlp_research_project"
+version = "0.1.0"
+description = "A project for NLP research on AD detection."
+authors = [
+    {name = "Netanel Shalev"}
+]
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "transformers",
+    "pandas",
+    "matplotlib",
+    "numpy",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel",
+    "jupyter",
+]
