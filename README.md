@@ -75,3 +75,6 @@ Optional: cache large frequency CSV externally if versioning strategy changes.
 2. Open `multi_file_analysis.ipynb` and run all cells.
 3. Inspect printed load summaries (ensures deterioration ages present).
 4. Review per‑metric scatter plots for emerging trends / potential markers.
+
+### The prompt for the agent:
+Read the file carfully. Understand the core memory and the preson. Create the retellings by the the exact instructions you got. 
