@@ -1,0 +1,30 @@
+{
+  "name": "Keren Aliza Hadar",
+  "start_deterioration_age": 60,
+  "stories": [
+    {
+      "age": 60,
+      "story": "I remember a presentation I gave to a public health board. I had all these dense slides prepared, but I could see I was losing them. So, I switched gears. I opened up the live system and started tracing the data lineage, from the moment it was entered. I showed them the whole journey: ingestion, validation, enrichment, all the way to the final aggregation. We even found a latency spike from a few days prior and drilled down to see the cause. A nurse in the audience, I remember her face so clearly, she looked so relieved to see her own manual entries making their way through the system. That’s when it clicked for them. Trust isn’t built with fancy charts; it’s built by making the whole process transparent and inspectable."
+    },
+    {
+      "age": 63,
+      "story": "I was giving a demo once, to a health board. They were skeptical, I could tell. My slides weren't working. So, I decided to show them the real thing. I walked them through the data pipeline, step by step. We followed the data from the source, watched it get cleaned and processed. I remember we even spotted a little slowdown in the system from earlier that week. The best part was a nurse who saw her own work, her data entries, moving through the pipeline. You could see the understanding dawn on her face. It was a powerful reminder that transparency is the most convincing argument you can make. People trust what they can see."
+    },
+    {
+      "age": 66,
+      "story": "I recall a meeting with some public health officials. I was trying to explain a new system, but they weren't getting it. So I abandoned my presentation and just showed them the data in motion. We traced its path, from start to finish. I showed them how it was validated and aggregated. I think we even found a small issue, a delay, and investigated it right there. I remember a nurse in the room. She seemed so pleased to see how her work was being used, how it was all connected. It was a good lesson. Seeing is believing. That’s how you build trust in a system, by opening it up and letting people look inside."
+    },
+    {
+      "age": 69,
+      "story": "I was in a meeting once, a demo. It wasn't going well. They were skeptical. So I changed my approach. I showed them the data itself, how it moved through our system. We followed it, step by step. I think we even found a problem, a bottleneck, and looked at it together. There was a woman there, a nurse, and she saw her own data in the system. I remember her reaction. She understood. It was a good moment. It showed me that being transparent is more important than any slide deck. You have to show people how it works, not just tell them."
+    },
+    {
+      "age": 72,
+      "story": "I have this memory of a presentation. I was showing a new system to some people. Health care, I think. They didn't trust it. So I showed them the data. We followed it. From the beginning to the end. It was a good way to explain it. I remember a woman there, a nurse. She saw her work in the system. It made her happy, I think. It’s important to show people the 'how.' Not just the 'what.' It builds trust. That was a good day. A good lesson."
+    },
+    {
+      "age": 75,
+      "story": "I remember a meeting. I was showing them... data. How it moves. It was important. There were people there who needed to understand. I showed them the path it took. It was complex, but they saw it. There was a woman... a nurse. She saw her part in it. It was a good feeling. To make something clear. To build that... trust. It’s all about trust, in the end. Making things clear, so people can trust them. That’s what I remember."
+    }
+  ]
+}
