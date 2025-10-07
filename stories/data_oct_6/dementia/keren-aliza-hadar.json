@@ -1,0 +1,30 @@
+{
+  "name": "Keren Aliza Hadar",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "It was a public health board demo, mid-week, and I could feel the skepticism in the room before I even opened my slides. But instead of walking through dense charts, I did something different—I live-traced the data lineage right there on the screen. Ingestion, validation, enrichment, aggregation. Step by step. Then I showed them a mid-week latency spike that nobody had noticed before. I drilled into the provenance layer, showed exactly where the delay happened and why it mattered. The mood shifted. Skepticism turned into curiosity. One of the nurses—Rachel, I think—said she finally understood where her manual entries went, how they traveled downstream. She looked relieved. That moment crystallized something for me: trust isn't just about accurate models. It's about transparent, inspectable pipelines. People need to see the path their data takes."
+    },
+    {
+      "age": 63,
+      "story": "That public health demo... mid-week, I remember. The room was skeptical—I could feel it. Instead of showing slides, I decided to trace the data live. Ingestion, validation, enrichment, aggregation. I walked them through it step by step. Then I spotted a latency spike mid-week that nobody had seen before. I drilled down into the provenance, showed them exactly where it happened. The skepticism started to fade. People got curious. One of the nurses—Rachel, I think her name was—she said it was the first time she really understood where her data went. She seemed... relieved. That stuck with me. Trust comes from transparency. From showing people the path, not just the result."
+    },
+    {
+      "age": 66,
+      "story": "Public health demo. Mid-week. The room was... skeptical. I could tell. So I traced the data live instead of using slides. Ingestion, validation, enrichment... the usual steps. There was a latency spike—mid-week, I think. I showed them where it happened. Drilled into the... the provenance. That's when people started paying attention. One of the nurses—Rachel, maybe—she said she finally understood where her data went. She looked relieved. That moment... it meant something. Trust comes from showing the path. Not just the numbers. The path."
+    },
+    {
+      "age": 69,
+      "story": "Public health demo. Mid-week, I think. People were skeptical. I remember that. I traced the data... live, on the screen. Ingestion, validation... uh, and the other steps. There was a spike. Latency. I showed them. Or tried to. I drilled into... something. The provenance? Yeah. People started to listen then. One of the nurses—Rachel? I think so. She said she understood where her data went. She seemed... happy. Or relieved. I wanted them to trust the system. That's what I always wanted. Show the path, not just... not just the result."
+    },
+    {
+      "age": 72,
+      "story": "Demo. Public health board. Was it mid-week? I'm not sure. People didn't trust the system. I remember that. I tried to show them... the data. How it moved. Ingestion... validation... I forget the rest. There was a spike. I saw it. Or someone saw it. I showed them. The nurse—Rachel, I think—she said something. About understanding. Or maybe I said that. She looked... she looked relieved. That's what I wanted. For them to trust it. To see the path. Or was it the numbers? I get confused now."
+    },
+    {
+      "age": 75,
+      "story": "There was a demo. Health... public health. People were there. Skeptical. I tried to show them something. Data. How it... moves? Or changes? There was a spike. I think. A problem. I showed it. Or tried to. Someone—Rachel? A nurse. She said... something. About understanding. Or trust. I wanted them to trust it. The system. The... the path. I used to know this better. Now I... I forget. But she looked relieved. That I remember."
+    }
+  ]
+}

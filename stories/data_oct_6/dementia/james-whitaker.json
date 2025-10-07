@@ -1,0 +1,30 @@
+{
+  "name": "James Whitaker",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "It was a Sunday maintenance window, early morning, just me and Sarah, one of the junior engineers. We'd pushed a schema change the night before—routine stuff, or so we thought. But around 7 a.m., the monitoring dashboard lit up with latency warnings. Queries that used to run in milliseconds were suddenly taking seconds. Sarah spotted it first, actually—called me over to her terminal. Instead of panicking or rolling back blindly, we built a timeline together. Step by step. Schema change, cache invalidation, query patterns. That's when I saw it: an implicit type cast in one of the WHERE clauses was preventing the index from being used. The database was doing full table scans. I walked her through the fix, but really, she'd already done the hard part—staying calm and observing. That moment stuck with me. Not because of the technical win, but because I got to watch her think like an engineer."
+    },
+    {
+      "age": 63,
+      "story": "There was this Sunday morning—maintenance window, early shift. Sarah was with me, one of the younger engineers. We'd done a schema change the night before, and... uh, things started going sideways around dawn. Latency spiked hard. Queries slowing down all over the place. Sarah noticed it first, I think. She called me over, and we started building a timeline—what changed, when, what broke. It took maybe an hour, but we traced it back to an implicit cast in a query. The index wasn't being used. Full table scans everywhere. Once we saw it, the fix was straightforward. But what I remember most is her staying focused. Not guessing. Just methodical. That's how you learn. That's how I tried to teach her, anyway. Quiet. Steady. No heroics."
+    },
+    {
+      "age": 66,
+      "story": "Sunday morning... maintenance window. Sarah and I were working. A schema change from the night before—something broke. Latency went up, way up. We were looking at the dashboard, and... uh, she saw the pattern before I did, I think. We built a timeline. Tried to trace what happened. There was a cast... implicit cast, in a query. That's what broke the index. It was doing full scans. Once we found it, the fix was... simple enough. I remember explaining it to her. Or maybe she explained it to me? No, I walked her through it. She stayed calm the whole time. That's what mattered. She learned something that day. So did I, probably."
+    },
+    {
+      "age": 69,
+      "story": "Sunday. Early. Sarah was there. We were... fixing something. Latency problem. The dashboard was flashing red. A schema change, I think—something we did the night before. Or maybe it was her? We looked at the logs. Built a timeline. Or tried to. There was a cast... a cast in the query that broke something. An index, maybe? I remember explaining it. She listened. She was good at that. Calm. I told her... something about staying methodical. No guessing. That's what I always said. We fixed it eventually. I think we did. The system came back up. She smiled. That part I remember."
+    },
+    {
+      "age": 72,
+      "story": "Sunday morning. Sarah... or was it someone else? No, Sarah. We were working. Something broke. The screen—red lights, lots of them. Latency... high. Really high. I think we changed something. A schema? Or a... I don't know. We looked at it. Built something. A... a list? Timeline. Yeah. There was a problem with a query. A cast. It broke the... the thing that makes it fast. Index. That's the word. I told her to stay calm. Or she told me. We fixed it. I think we did. She was there. That's what I remember most."
+    },
+    {
+      "age": 75,
+      "story": "Sunday. Someone was with me. Sarah, I think. We were looking at a screen. Red lights. Something was slow. Broken. We... we tried to fix it. There was a change. Schema? I don't remember. A query. A cast. It didn't work right. She... she stayed calm. Or I did. Someone did. We fixed it, maybe. I told her something. About... being careful. Methodical. That's what I used to say. The system... it came back. Or did it? I get confused. She was there, though. I remember her face. That helps."
+    }
+  ]
+}
