@@ -1,0 +1,10 @@
+Feature,Control Mean,Control Std,Disease Mean,Disease Std,Difference,Percent Change
+Noun Token Ratio,0.2058,0.0343,0.1919,0.046,-0.0139,-6.74
+Hapax Legomena Ratio,0.4874,0.1151,0.4699,0.1285,-0.0175,-3.6
+Word Used Once Or Twice Frequency,0.8973,0.0431,0.8871,0.0587,-0.0101,-1.13
+Brunet Index,9.8558,1.0244,9.7408,1.2438,-0.115,-1.17
+Token Type Ratio,0.645,0.0877,0.6397,0.0999,-0.0053,-0.82
+Adposition Frequency,0.0806,0.0265,0.0691,0.0258,-0.0116,-14.34
+Uni And Bi Grams Repetitions,0.008,0.0164,0.016,0.0245,0.008,99.94
+Word Freq Subtl,7152.6228,988.0566,7030.8548,1255.6829,-121.768,-1.7
+Word Freq Zipf,5.9829,0.1388,6.0429,0.176,0.0601,1.0
