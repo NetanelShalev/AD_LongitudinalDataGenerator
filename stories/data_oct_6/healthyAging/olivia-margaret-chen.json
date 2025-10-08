@@ -1,6 +1,6 @@
 {
   "name": "Olivia Margaret Chen",
-  "start_deterioration_age": 60,
+  "start_deterioration_age": 72,
   "stories": [
     {
       "age": 60,
@@ -20,11 +20,11 @@
     },
     {
       "age": 72,
-      "story": "I was an attorney. I remember a case... about housing. It was an important one. In my final speech, I talked about the people. And I talked about the numbers. I tried to make them see the connection. It’s not just about data; it’s about lives. I believe we won. It was a good result. It felt just. It’s a good memory, that feeling of justice being done. It’s why I did the work for so many years. To have those moments."
+      "story": "I was an attorney. I remember a case... about housing. It was an important one. In my final speech, I talked about the people. And I talked about the numbers. I tried to make them see the connection. It\u2019s not just about data; it\u2019s about lives. I believe we won. It was a good result. It felt just. It\u2019s a good memory, that feeling of justice being done. It\u2019s why I did the work for so many years. To have those moments."
     },
     {
       "age": 75,
-      "story": "I used to be in a courtroom. I remember speaking to the jury. There was a case... about people's homes. It was important. I talked about the people. I wanted the jury to understand. To feel it. I think they did. It was a good day. A just day. I remember the feeling of rightness. It’s a warm memory. A good one to hold on to."
+      "story": "I used to be in a courtroom. I remember speaking to the jury. There was a case... about people's homes. It was important. I talked about the people. I wanted the jury to understand. To feel it. I think they did. It was a good day. A just day. I remember the feeling of rightness. It\u2019s a warm memory. A good one to hold on to."
     }
   ]
 }

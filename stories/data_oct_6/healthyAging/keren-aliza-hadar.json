@@ -1,10 +1,10 @@
 {
   "name": "Keren Aliza Hadar",
-  "start_deterioration_age": 60,
+  "start_deterioration_age": 72,
   "stories": [
     {
       "age": 60,
-      "story": "I remember a presentation I gave to a public health board. I had all these dense slides prepared, but I could see I was losing them. So, I switched gears. I opened up the live system and started tracing the data lineage, from the moment it was entered. I showed them the whole journey: ingestion, validation, enrichment, all the way to the final aggregation. We even found a latency spike from a few days prior and drilled down to see the cause. A nurse in the audience, I remember her face so clearly, she looked so relieved to see her own manual entries making their way through the system. That’s when it clicked for them. Trust isn’t built with fancy charts; it’s built by making the whole process transparent and inspectable."
+      "story": "I remember a presentation I gave to a public health board. I had all these dense slides prepared, but I could see I was losing them. So, I switched gears. I opened up the live system and started tracing the data lineage, from the moment it was entered. I showed them the whole journey: ingestion, validation, enrichment, all the way to the final aggregation. We even found a latency spike from a few days prior and drilled down to see the cause. A nurse in the audience, I remember her face so clearly, she looked so relieved to see her own manual entries making their way through the system. That\u2019s when it clicked for them. Trust isn\u2019t built with fancy charts; it\u2019s built by making the whole process transparent and inspectable."
     },
     {
       "age": 63,
@@ -12,7 +12,7 @@
     },
     {
       "age": 66,
-      "story": "I recall a meeting with some public health officials. I was trying to explain a new system, but they weren't getting it. So I abandoned my presentation and just showed them the data in motion. We traced its path, from start to finish. I showed them how it was validated and aggregated. I think we even found a small issue, a delay, and investigated it right there. I remember a nurse in the room. She seemed so pleased to see how her work was being used, how it was all connected. It was a good lesson. Seeing is believing. That’s how you build trust in a system, by opening it up and letting people look inside."
+      "story": "I recall a meeting with some public health officials. I was trying to explain a new system, but they weren't getting it. So I abandoned my presentation and just showed them the data in motion. We traced its path, from start to finish. I showed them how it was validated and aggregated. I think we even found a small issue, a delay, and investigated it right there. I remember a nurse in the room. She seemed so pleased to see how her work was being used, how it was all connected. It was a good lesson. Seeing is believing. That\u2019s how you build trust in a system, by opening it up and letting people look inside."
     },
     {
       "age": 69,
@@ -20,11 +20,11 @@
     },
     {
       "age": 72,
-      "story": "I have this memory of a presentation. I was showing a new system to some people. Health care, I think. They didn't trust it. So I showed them the data. We followed it. From the beginning to the end. It was a good way to explain it. I remember a woman there, a nurse. She saw her work in the system. It made her happy, I think. It’s important to show people the 'how.' Not just the 'what.' It builds trust. That was a good day. A good lesson."
+      "story": "I have this memory of a presentation. I was showing a new system to some people. Health care, I think. They didn't trust it. So I showed them the data. We followed it. From the beginning to the end. It was a good way to explain it. I remember a woman there, a nurse. She saw her work in the system. It made her happy, I think. It\u2019s important to show people the 'how.' Not just the 'what.' It builds trust. That was a good day. A good lesson."
     },
     {
       "age": 75,
-      "story": "I remember a meeting. I was showing them... data. How it moves. It was important. There were people there who needed to understand. I showed them the path it took. It was complex, but they saw it. There was a woman... a nurse. She saw her part in it. It was a good feeling. To make something clear. To build that... trust. It’s all about trust, in the end. Making things clear, so people can trust them. That’s what I remember."
+      "story": "I remember a meeting. I was showing them... data. How it moves. It was important. There were people there who needed to understand. I showed them the path it took. It was complex, but they saw it. There was a woman... a nurse. She saw her part in it. It was a good feeling. To make something clear. To build that... trust. It\u2019s all about trust, in the end. Making things clear, so people can trust them. That\u2019s what I remember."
     }
   ]
 }

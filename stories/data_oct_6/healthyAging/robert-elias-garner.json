@@ -1,6 +1,6 @@
 {
   "name": "Robert Elias Garner",
-  "start_deterioration_age": 60,
+  "start_deterioration_age": 72,
   "stories": [
     {
       "age": 60,
@@ -16,15 +16,15 @@
     },
     {
       "age": 69,
-      "story": "There was a drought... a bad one. I was out in the fields with my daughter. The ground was all cracked. We found a leak in a pipe. We fixed it. I remember telling her... something about making hard choices. About how you have to think about the long run. It was a quiet morning. Just the two of us. It’s a good memory. It felt like she understood. She’s a good farmer. She listens to the land. That’s what’s important."
+      "story": "There was a drought... a bad one. I was out in the fields with my daughter. The ground was all cracked. We found a leak in a pipe. We fixed it. I remember telling her... something about making hard choices. About how you have to think about the long run. It was a quiet morning. Just the two of us. It\u2019s a good memory. It felt like she understood. She\u2019s a good farmer. She listens to the land. That\u2019s what\u2019s important."
     },
     {
       "age": 72,
-      "story": "I remember a walk... with my daughter. It was dry. The fields were thirsty. We found a problem with the water... a leak. We fixed it together. It was a good lesson. You have to pay attention to the small things. I think I told her that. It was a quiet day. A good day. It’s a nice memory to have. Working together. Taking care of the land. That’s what matters."
+      "story": "I remember a walk... with my daughter. It was dry. The fields were thirsty. We found a problem with the water... a leak. We fixed it together. It was a good lesson. You have to pay attention to the small things. I think I told her that. It was a quiet day. A good day. It\u2019s a nice memory to have. Working together. Taking care of the land. That\u2019s what matters."
     },
     {
       "age": 75,
-      "story": "My daughter and I... we were in the field. It was dry. So dry. There was a problem with the water. We fixed it. It was important. You have to take care of the land. It takes care of you. It was a good day. A quiet day. Just us and the land. It’s a good memory. A very good memory."
+      "story": "My daughter and I... we were in the field. It was dry. So dry. There was a problem with the water. We fixed it. It was important. You have to take care of the land. It takes care of you. It was a good day. A quiet day. Just us and the land. It\u2019s a good memory. A very good memory."
     }
   ]
 }

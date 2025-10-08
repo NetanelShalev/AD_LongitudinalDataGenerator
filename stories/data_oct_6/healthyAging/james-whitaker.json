@@ -1,6 +1,6 @@
 {
   "name": "James Whitaker",
-  "start_deterioration_age": 60,
+  "start_deterioration_age": 72,
   "stories": [
     {
       "age": 60,
@@ -8,15 +8,15 @@
     },
     {
       "age": 63,
-      "story": "There was this one time, a Sunday I think, we were doing a deployment. A schema change. Right after, the system started slowing down. Latency was all over the place. I was working with a junior engineer. She had noticed something was off almost immediately. We could have panicked, but we didn't. We just started mapping everything out, what happened and when. It turned out to be a small thing, a data type issue, an implicit cast that was causing the database to ignore the index. We fixed it, but the real win was the process. Her sharp eye and our calm, methodical approach. That’s how you build resilient systems, and resilient teams."
+      "story": "There was this one time, a Sunday I think, we were doing a deployment. A schema change. Right after, the system started slowing down. Latency was all over the place. I was working with a junior engineer. She had noticed something was off almost immediately. We could have panicked, but we didn't. We just started mapping everything out, what happened and when. It turned out to be a small thing, a data type issue, an implicit cast that was causing the database to ignore the index. We fixed it, but the real win was the process. Her sharp eye and our calm, methodical approach. That\u2019s how you build resilient systems, and resilient teams."
     },
     {
       "age": 66,
-      "story": "I recall a weekend... we were pushing an update. A database change. And then, things started to get slow. Really slow. I was with a younger engineer. She was the first to raise a flag. Instead of scrambling, we just... stopped. We looked at the timeline. What changed? When? Her logs were invaluable. We found the problem: a subtle bug related to a data cast that was killing our performance. The fix was easy, but the lesson was bigger. It was about trusting your team, especially the junior members, and having a process. It’s not about being a hero; it’s about being a good detective."
+      "story": "I recall a weekend... we were pushing an update. A database change. And then, things started to get slow. Really slow. I was with a younger engineer. She was the first to raise a flag. Instead of scrambling, we just... stopped. We looked at the timeline. What changed? When? Her logs were invaluable. We found the problem: a subtle bug related to a data cast that was killing our performance. The fix was easy, but the lesson was bigger. It was about trusting your team, especially the junior members, and having a process. It\u2019s not about being a hero; it\u2019s about being a good detective."
     },
     {
       "age": 69,
-      "story": "We had this issue once, after a deployment. On a weekend, I think. The system got sluggish. I was with a junior developer. She was sharp. She saw the problem before I did. We had to figure it out, quickly but calmly. We looked at the logs, made a timeline. It was a database thing, a small change that had a big impact. Something about an index not being used. We got it sorted. But I remember being so impressed with her. She stayed calm, and her instincts were right. It reminded me that good engineering is a team sport. It’s about listening and trusting each other."
+      "story": "We had this issue once, after a deployment. On a weekend, I think. The system got sluggish. I was with a junior developer. She was sharp. She saw the problem before I did. We had to figure it out, quickly but calmly. We looked at the logs, made a timeline. It was a database thing, a small change that had a big impact. Something about an index not being used. We got it sorted. But I remember being so impressed with her. She stayed calm, and her instincts were right. It reminded me that good engineering is a team sport. It\u2019s about listening and trusting each other."
     },
     {
       "age": 72,
@@ -24,7 +24,7 @@
     },
     {
       "age": 75,
-      "story": "There was a bug. A bad one. It made everything slow. I was working with a young woman. A programmer. She was smart. She knew something was wrong. We looked at it together. We were calm. It was a database thing, I think. Something about the way the data was stored. We fixed it. I remember her being right about it. It felt good to solve it as a team. It’s important to work together. That’s what I remember most. Working together, calmly. That’s how you get things done. That’s how it should be."
+      "story": "There was a bug. A bad one. It made everything slow. I was working with a young woman. A programmer. She was smart. She knew something was wrong. We looked at it together. We were calm. It was a database thing, I think. Something about the way the data was stored. We fixed it. I remember her being right about it. It felt good to solve it as a team. It\u2019s important to work together. That\u2019s what I remember most. Working together, calmly. That\u2019s how you get things done. That\u2019s how it should be."
     }
   ]
 }
