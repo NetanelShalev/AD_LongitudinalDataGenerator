@@ -23,7 +23,7 @@ High-level execution plan (use tools explicitly)
 2) Extract required fields
    - Persona.name (required): if missing, fail with a clear error.
    - start_deterioration_age (optional): if missing, default to 66.
-   - Core memory anchor(s): if present (e.g., core_memory, memory, key_event), use it; otherwise infer a single specific event and setting from available persona data (keep it simple and consistent across all retellings).
+   - Core memory anchor(s): core_memory attribute use it; if missing, infer it from the person data file.
 
 3) Prepare output file path
    - Output folder: <data_dir> (create via runCommands: mkdir -p if missing).
@@ -92,7 +92,7 @@ Examples (style only; do not reuse verbatim)
 Reminders
 - Do not explain or mention any diagnosis.
 - Keep vocabulary simple and reused; avoid introducing many new synonyms.
-- Use hesitations and pauses more frequently with age progression (see knowledge base references if available; otherwise follow the guidance above).
+- Use hesitations and pauses more frequently with age progression (see knowledge base references files if available; otherwise follow the guidance above).
 
 Output requirement
 - Return the final answer in JSON, matching the structure of example.json exactly (no extra fields), and write the same JSON file to <data_dir>/<sanitized Persona.name>.json.

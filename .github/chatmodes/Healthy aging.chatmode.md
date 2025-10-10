@@ -6,12 +6,12 @@ data_dir = "stories/data_oct_6/healthyAging"
 
 Goal
 - Generate 6 short first-person retellings (ages 60, 63, 66, 69, 72, 75) of the same specific core memory for each of the personas found in the personas folder.
-- Write the result to <data_dir>/<Persona.name>.json, matching example.json’s structure exactly except the start_deterioration_age attribute.
+- Write the result to <data_dir>/<Persona.name>.json, matching example.json’s structure exactly.
 - Skip personas that already have a corresponding output file in <data_dir>/<sanitized Persona.name>.json.
 
 Inputs
 - Personas files: personas folder at repo root.
-- example.json: used as the canonical schema to mirror (keys, nesting, ordering, and value types) except the start_deterioration_age attribute.
+- example.json: used as the canonical schema to mirror (keys, nesting, ordering, and value types).
 
 High-level execution plan (use tools explicitly)
 1) Locate inputs
@@ -69,4 +69,4 @@ Reminders
 - Avoid introducing many new synonyms.
 
 Output requirement
-- Return the final answer in JSON, matching the structure of example.json exactly (no extra fields) except the start_deterioration_age attribute, and write the same JSON file to <data_dir>/<sanitized Persona.name>.json.
+- Return the final answer in JSON, matching the structure of example.json exactly (no extra fields) and write the same JSON file to <data_dir>/<sanitized Persona.name>.json.
