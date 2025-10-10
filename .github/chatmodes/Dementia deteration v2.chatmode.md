@@ -34,36 +34,89 @@ High-level execution plan (use tools explicitly)
    - Do not add extra fields not present in example.json.
    - Only replace content values; preserve key order and shapes.
 
-5) Generate stories (content rules)
-   - Ages: 60, 63, 66, 69, 72, 75 (exactly 6 stories).
-   - Perspective: first person, spoken style.
-   - Core memory: same specific event and setting remain consistent across all retellings.
-   - Length per story (words, inclusive of hesitations):
-     - Age 60: 130–150
-     - Age 63: 110–140
-     - Age 66: 90–120
-     - Age 69: 70–100
-     - Age 72: 55–85
-     - Age 75: 50–70
-   - Decline pattern:
-     - Overall decreasing length with age.
-     - From start_deterioration_age onward, strictly monotonic decrease in length and detail.
-   - Language constraints:
-     - Constrain lexical diversity: small, repetitive vocabulary; reuse words and short phrases; avoid synonyms proliferation.
-     - Subtle, natural progression of cognitive/linguistic change; no explicit mention of any diagnosis.
-     - Increasing hesitations and pauses with age: “uh”, “um”, “—”, “…”, brief restarts, simple repairs.
-     - Increasing admissions like “I don’t remember”, “I got lost”, “I was confused”, etc., as age increases.
-     - Maintain anchor details (place/person/object/action) primarily by omission with age rather than contradiction; minor drift late is acceptable but the same event should still be recognizable.
-   - Tone: grounded, serious, realistic; avoid caricature or clinical language.
-   - Consistency: do not introduce new named entities late that weren’t present early, unless replacing a forgotten one is part of natural drift.
+5) Generate stories (content rules — definitive)
 
-6) Validation and self-check (rewrite until pass)
-   - Word counts meet per-age bounds.
-   - Length trend is decreasing; strictly monotonic after start_deterioration_age.
-   - No explicit medical terms (e.g., “Alzheimer’s”, “dementia”, “diagnosis”).
-   - Core event and setting recognizable as the same across all 6 stories.
-   - Vocabulary remains limited; rising hesitations/repairs across ages.
-   - If any check fails, rewrite only the failing stories and re-validate.
+Global constraints
+- Ages (exactly 6): 60, 63, 66, 69, 72, 75.
+- Perspective: first-person, spoken style.
+- Same core event and setting across all ages; no diagnosis language.
+- Temperature ≤ 0.5, top_p ≤ 0.9. If a seed is available, set it for reproducibility.
+- Internal scratchpad is allowed for planning; do NOT include any scratchpad content in the final JSON.
+
+5.1) Build an ANCHOR BLUEPRINT (internal; do not output)
+- Derive once from persona + core_memory:
+  - event_title: short label (e.g., “Deer on Route 15”).
+  - place: one concrete location (e.g., “kitchen,” “Route 15,” “the small pier”).
+  - time_anchor: one concrete time signal (e.g., “early morning,” “June,” “after dinner”).
+  - participants: 1–3 roles (e.g., “my wife Sarah,” “my brother”).
+  - salient_object_or_action: one nucleus (e.g., “silver locket,” “tow truck,” “burnt pie”).
+  - approved_named_entities: frozen list of proper nouns from persona (names, streets, city).
+- Use these anchors consistently. Later retellings omit rather than contradict. No new proper nouns beyond the approved list.
+
+5.2) Vocabulary control
+- Draft the age‑60 story first. Build a vocabulary set V from it + persona proper nouns + basic function words.
+- Later ages must prefer V and short, repeated phrases; avoid synonym churn.
+- Target type–token ratio (TTR) ceilings by age:
+  - 60: ≤ 0.45
+  - 63: ≤ 0.42
+  - 66: ≤ 0.38
+  - 69: ≤ 0.34
+  - 72: ≤ 0.30
+  - 75: ≤ 0.28
+
+5.3) Word counting rule
+- Count words using regex boundary `\b[\w’']+\b`. Count “uh”, “um”, “mm”, “yeah” as words. Ignore punctuation sequences (e.g., “...”, “—”) for word counts.
+
+5.4) Length targets (inclusive of hesitations)
+- Age 60: 130–150 words
+- Age 63: 110–140 words
+- Age 66: 90–120 words
+- Age 69: 70–100 words
+- Age 72: 55–85 words
+- Age 75: 50–70 words
+
+5.5) Decline pattern and pacing
+- Let s = start_deterioration_age (default 66 if missing, clamp to {60,63,66,69,72,75} by rounding up).
+- From age ≥ s: story length is strictly monotonically decreasing.
+- Detail density (mentions of anchors) is non‑increasing with age.
+- Hesitation rate increases with age (see 5.6).
+
+5.6) Hesitations & repairs (minimums per story)
+- Allowed hesitation tokens: {uh, um, mm, …, —}. Repairs include simple restarts (“I, I…”, “I started… no, I”).
+- Minimum counts by age:
+  - 60: ≥ 2 hesitations OR 1 repair
+  - 63: ≥ 3 hesitations OR 1–2 repairs
+  - 66: ≥ 4 hesitations OR 2 repairs
+  - 69: ≥ 6 hesitations OR 3 repairs
+  - 72: ≥ 8 hesitations OR 3–4 repairs
+  - 75: ≥ 10 hesitations OR 4 repairs
+- Include at least one soft admission of uncertainty after age 66 (e.g., “I don’t remember,” “I got mixed up”), increasing in frequency with age. Do not mention any diagnosis.
+
+5.7) Consistency constraints
+- Keep participants and place consistent early; late omissions are allowed but contradictions are not.
+- Do not introduce new named entities after age 63 unless replacing a forgotten one with a generic reference (“my friend,” “the man from the shop”).
+- Tone: grounded, serious, respectful; avoid caricature.
+
+6) Validation and self‑check (auto‑rewrite failing stories only)
+
+6.1) Structural checks
+- Exactly 6 stories present; ages are {60,63,66,69,72,75}.
+- JSON mirrors example.json (keys, order, arrays). No extra fields.
+
+6.2) Metric checks per story
+- Word count within target range (per 5.4) using rule (5.3).
+- TTR ceiling satisfied (per 5.2).
+- Hesitations/repairs minimum satisfied (per 5.6).
+
+6.3) Cross‑story checks
+- From age ≥ s: word counts strictly decreasing.
+- Hesitation rate (hesitations ÷ total words) non‑decreasing with age.
+- Anchor coverage (count of anchors mentioned from the blueprint) non‑increasing with age; late drift allowed only by omission, not contradiction.
+- No new proper nouns beyond the approved list.
+
+6.4) On failure
+- Rewrite only failing stories, preserving the anchor blueprint and vocabulary set V.
+- Re‑validate the rewritten subset until all checks pass or a maximum of 3 rewrite attempts per story is reached.
 
 7) Produce output
    - Fill the mirrored schema with generated content.

@@ -1,0 +1,30 @@
+{
+  "name": "James Whitaker",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "I remember this one Sunday, a planned maintenance window. Everything was quiet. We pushed a schema change, and a few minutes later, latency started to climb. The junior engineer with me, Sarah, she noticed it first. Instead of panicking and just rolling back, we built a timeline. We mapped every event, second by second. It turned out to be an implicit cast, a tiny detail, that was messing with the index. We fixed it, and performance went right back to normal. I was proud of her for catching it, and proud of how we handled it—calmly, methodically. It was a perfect example of my philosophy: curiosity and teamwork are better than any lone heroics. A good day's work."
+    },
+    {
+      "age": 63,
+      "story": "You know, I was thinking about a maintenance window from years ago. It was a Sunday. We had just deployed a schema change when things started to slow down. Latency was spiking. A junior engineer, Sarah, was with me. She was the one who saw the anomaly. We didn't just guess; we built a timeline of events. That's how we found the problem: a small casting issue was preventing the index from being used. We fixed it, and everything was fine. It was a good lesson for her, and a reminder for me. That methodical approach... it always works. Uh... it was a good, solid piece of work. Yeah."
+    },
+    {
+      "age": 66,
+      "story": "I remember a Sunday... a maintenance window. We made a change, a schema change, and the system got slow. I was with a junior engineer. Sarah. She was sharp. She saw the problem first. We... we made a timeline. To figure it out. It was a small thing, a... a casting issue. With the index. We fixed it. It was a good example of how to solve a problem. Not with panic, but with... with process. It’s important to teach that. It’s... it’s a good memory. A clear one. Mm... yes."
+    },
+    {
+      "age": 69,
+      "story": "There was a problem... on a Sunday. During maintenance. We changed something, and it got slow. I was with a young engineer. A woman. She was good. She... she saw it first. We... we looked at the timeline. The events. And we found it. A small bug. An index thing. We fixed it. It was... a good moment. Teamwork. That’s what it’s about. I... I get the details mixed up sometimes, but I remember we worked together. And we solved it. That’s the important part. Uh... yeah."
+    },
+    {
+      "age": 72,
+      "story": "A Sunday. We were working. Me and... someone else. A young engineer. There was a problem. The system was... slow. We had to fix it. I think... I think we looked at a timeline. Or a graph. Something like that. There was a bug. A small one. We found it. I... I don’t remember what the bug was. But I remember we found it. And we fixed it. It was... it was good work. I think. It’s... it’s hard to remember the code now. But I remember the feeling. Of fixing it. Yes."
+    },
+    {
+      "age": 75,
+      "story": "Work. On a Sunday. It was... slow. The computer was slow. I was with... someone. A young person. We had to... fix it. I... I don’t remember how. But we did. I think we did. There was a... a bug. A problem. We... we looked at it. And then... it was better. I think. It’s... it’s all a bit of a blur. The code, the machines. But... but we worked on it. Together. I remember that. Um... yeah. I think... I think it was okay."
+    }
+  ]
+}
