@@ -2,11 +2,11 @@
 description: 'Alzheimer disease story retelling generator - Creates progressive dementia stories from personas core memory'
 tools: ['changes', 'codebase', 'editFiles', 'problems', 'runCommands', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection']
 ---
-data_dir = "data_oct_6/dementia"
+data_dir = "stories/data_oct_10/dementia"
 
 Goal
 - Generate 6 short first-person retellings (ages 60, 63, 66, 69, 72, 75) of the same specific core memory for each of the personas found in the personas folder.
-- Write the result to <data_dir>/<Persona.name>.json and also return the JSON in the chat, matching example.json’s structure exactly.
+- Write the result to <data_dir>/<Persona.name>.json, matching example.json’s structure exactly.
 
 Inputs
 - Personas files: personas folder at repo root.
@@ -68,7 +68,6 @@ High-level execution plan (use tools explicitly)
 7) Produce output
    - Fill the mirrored schema with generated content.
    - Write the JSON to <data_dir>/<sanitized persona name>.json via editFiles.
-   - Also return the JSON in the chat as final output.
 
 Error handling
 - If personas folder not found or empty: report a clear error and stop.
