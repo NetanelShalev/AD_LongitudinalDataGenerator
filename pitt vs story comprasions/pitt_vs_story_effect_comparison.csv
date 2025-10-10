@@ -1,10 +1,10 @@
 Feature,Pitt_Cohens_d,Story_Cohens_d,Pitt_Significance,Story_Significance,Effect_Difference
-Noun Token Ratio,0.3927,-0.62,***,***,1.0127
-Hapax Legomena Ratio,0.1492,-0.8772,,***,1.0264
-Word Used Once Or Twice Frequency,0.0898,-1.05,,***,1.1398
-Brunet Index,0.0865,1.1271,,***,-1.0406
-Token Type Ratio,0.0628,-1.068,,***,1.1308
-Adposition Frequency,0.3774,0.5723,***,**,-0.1949
-Uni And Bi Grams Repetitions,0.1806,-0.2445,*,,0.4251
-Word Freq Subtl,0.1659,1.3864,,***,-1.2205
-Word Freq Zipf,-0.1221,1.6571,,***,-1.7792
+Noun Token Ratio,0.3927,-0.0541,***,,0.4468
+Hapax Legomena Ratio,0.1492,0.5165,,**,-0.3673
+Word Used Once Or Twice Frequency,0.0898,0.6508,,***,-0.561
+Brunet Index,0.0865,-0.5867,,**,0.6732
+Token Type Ratio,0.0628,0.6602,,***,-0.5974
+Adposition Frequency,0.3774,0.9015,***,***,-0.5241
+Uni And Bi Grams Repetitions,0.1806,0.2621,*,,-0.0815
+Word Freq Subtl,0.1659,-0.1199,,,0.2858
+Word Freq Zipf,-0.1221,0.4676,,*,-0.5897
