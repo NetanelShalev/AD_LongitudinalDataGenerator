@@ -1,0 +1,30 @@
+{
+  "name": "Keren Aliza Hadar",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "I was presenting to a public health board, trying to get them to trust our new data system. The slides were dense, and I could see I was losing them. So, I ditched the presentation and just started tracing the data live on screen. I showed them everything: how the data came in, how it was validated, enriched, and aggregated. Right there, we saw a latency spike from mid-week. I drilled down into the provenance and showed them exactly where a nurse's manual entries were getting stuck. I’ll never forget the look of relief on her face when she saw her work wasn't lost, just delayed. That’s when they understood. Trust isn’t built on fancy dashboards; it’s built on transparent, inspectable pipelines. That moment was better than any metric."
+    },
+    {
+      "age": 63,
+      "story": "I remember this one demo for a public health board. They were skeptical. My slides weren't working, so I just… I went off script. I started showing them the data's journey, live. Ingestion, validation, all of it. We even found a bug, a, uh, latency spike. I traced it back to a nurse's entries. She was in the room, and she looked so… relieved. To see her data wasn't just gone. That’s what mattered. It wasn’t about the slides or the tech, really. It was about showing them the process, making it transparent. That’s how you build trust. That nurse’s face, I still remember it."
+    },
+    {
+      "age": 66,
+      "story": "I was in a meeting… a demo. With a health board. I had slides, but they weren't… connecting. So I just showed them the data itself. How it moved through the system. We saw a problem, a… a slowness. A spike. I followed it back, and it was from… a nurse’s entries. She was there. And she saw it. She looked… relieved. It’s important to show the path, you know? Not just the end result. It’s about… trust. I think. Yeah, that was a good day. They finally got it."
+    },
+    {
+      "age": 69,
+      "story": "I was showing my work… to a board. Health data. I had a presentation, but I… I stopped it. I just showed them the data. The path it took. There was a problem, a… a delay. We found it. A nurse… her work was stuck. She was there. She saw it. It was… a good moment. She wasn't worried anymore. It’s hard to explain. It’s not about the… the charts. It’s about the… the line. The path. Seeing it. That’s what builds the… the trust."
+    },
+    {
+      "age": 72,
+      "story": "A demo. For… for the health people. I was showing them… the data. It was slow. There was a problem. I… I found it. A nurse… her data. It was… stuck. She was there. I think. She looked… happy? No, not happy. Relieved. That’s it. Relieved. It’s… I don’t remember all the steps. But I remember her face. It was… important. The data path. It was clear. For a moment. Yeah."
+    },
+    {
+      "age": 75,
+      "story": "The data. I was… showing the data. To people. There was a… a nurse. I think. It was… slow. The data was slow. I… I did something. On the screen. And she… she saw it. Her work. It was… there. It wasn’t lost. That was… good. I remember that. It was good. The… the path. It was… clear. Yeah. Clear."
+    }
+  ]
+}

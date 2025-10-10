@@ -1,0 +1,30 @@
+{
+  "name": "James Whitaker",
+  "start_deterioration_age": 72,
+  "stories": [
+    {
+      "age": 60,
+      "story": "I remember this one Sunday maintenance window. We’d just pushed a schema change, and minutes later, latency started spiking. The whole team was on edge. Instead of just guessing, I pulled in a junior engineer who had first spotted the anomaly. We sat down together and built a precise timeline of events, mapping every change and its impact. It turned out an implicit cast was preventing the database from using its index correctly. We rolled it back, and performance snapped right back to normal. The important part for me was validating her observation and working through it methodically. It’s not about being a hero; it’s about building a culture of curiosity and safety. That’s how you build resilient systems and resilient teams."
+    },
+    {
+      "age": 63,
+      "story": "We had this issue once, uh, during a Sunday deployment. A database change. Suddenly, everything got slow. Latency was through the roof. A junior engineer, she was the one who saw it first. So, we paired up. We didn't just start trying random fixes. We, uh, built a timeline. Mapped out exactly what happened and when. We found the problem—a bad cast messing with the index. The fix was easy after that. What stuck with me was how we solved it. Calmly. Together. She was sharp. It felt good to trust her instinct and just… work the problem. That’s the right way to do it."
+    },
+    {
+      "age": 66,
+      "story": "There was a Sunday… a maintenance window. We made a change, and things got slow. Really slow. I was with a junior engineer. She was… she was the one who noticed it. We, um, we made a list, a timeline of what happened. It helped us find the bug. It was something with the database, an index I think. We fixed it. I remember being proud of her. She saw the problem, and we… we figured it out. Not by panicking, but by being methodical. That’s the important part. Yeah, methodical."
+    },
+    {
+      "age": 69,
+      "story": "I remember a problem… on a Sunday. The system was slow. So slow. I was with… a young engineer. A woman. She was smart. She saw it first. We, uh… we wrote things down. A timeline. To see what was wrong. It was… in the database. Something was broken. We fixed it. It felt… good. To work with her. She was… calm. We just… worked together. And it got better. That’s what I remember. Working together."
+    },
+    {
+      "age": 72,
+      "story": "A Sunday. There was… a problem. The computer was slow. I was with… someone. A young woman. She was… good. We had to fix it. We… we made a list. Of the time. It helped. The problem was… I don’t remember. But we fixed it. She and I. It was… quiet. We just… worked. And it was fixed. That was a good day. A good feeling. Yeah."
+    },
+    {
+      "age": 75,
+      "story": "Slow. It was so… slow. On a Sunday, I think. I was with… her. The young one. We had to… fix it. We… we wrote it down. The time. It was… broken. But we fixed it. Together. She was… smart. It was… good. That feeling. Good. We fixed it. Yeah. Fixed it."
+    }
+  ]
+}

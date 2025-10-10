@@ -1,10 +1,10 @@
 Feature,Control_Mean,Control_Std,Disease_Mean,Disease_Std,Difference,Percent_Change
-Noun Token Ratio,0.2202,0.0353,0.222,0.0308,0.0018,0.81
-Hapax Legomena Ratio,0.4983,0.0654,0.454,0.1022,-0.0443,-8.89
-Word Used Once Or Twice Frequency,0.5836,0.0563,0.5355,0.0879,-0.048,-8.23
-Brunet Index,10.0935,0.2214,10.2679,0.3571,0.1743,1.73
-Token Type Ratio,0.6541,0.0453,0.6148,0.0709,-0.0393,-6.01
-Adposition Frequency,0.1047,0.0284,0.0787,0.0294,-0.0261,-24.88
-Uni And Bi Grams Repetitions,190.9167,32.3981,181.6667,37.9753,-9.25,-4.85
-Word Freq Subtl,6785.2149,999.9694,6909.3109,1068.0424,124.0959,1.83
-Word Freq Zipf,5.7455,0.1924,5.6453,0.2341,-0.1002,-1.74
+Noun Token Ratio,0.2202,0.0353,0.2078,0.0437,-0.0124,-5.62
+Hapax Legomena Ratio,0.4983,0.0654,0.4887,0.0732,-0.0096,-1.93
+Word Used Once Or Twice Frequency,0.5836,0.0563,0.5736,0.0631,-0.01,-1.71
+Brunet Index,10.0935,0.2214,9.6964,0.5214,-0.3971,-3.93
+Token Type Ratio,0.6541,0.0453,0.6509,0.051,-0.0032,-0.49
+Adposition Frequency,0.1047,0.0284,0.0769,0.0319,-0.0279,-26.61
+Uni And Bi Grams Repetitions,190.9167,32.3981,161.9667,46.1144,-28.95,-15.16
+Word Freq Subtl,6785.2149,999.9694,7237.1594,1062.6385,451.9445,6.66
+Word Freq Zipf,5.7455,0.1924,5.7913,0.2158,0.0458,0.8
