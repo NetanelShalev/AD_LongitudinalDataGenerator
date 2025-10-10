@@ -56,13 +56,7 @@ Global constraints
 5.2) Vocabulary control
 - Draft the age‑60 story first. Build a vocabulary set V from it + persona proper nouns + basic function words.
 - Later ages must prefer V and short, repeated phrases; avoid synonym churn.
-- Target type–token ratio (TTR) ceilings by age:
-  - 60: ≤ 0.45
-  - 63: ≤ 0.42
-  - 66: ≤ 0.38
-  - 69: ≤ 0.34
-  - 72: ≤ 0.30
-  - 75: ≤ 0.28
+
 
 5.3) Word counting rule
 - Count words using regex boundary `\b[\w’']+\b`. Count “uh”, “um”, “mm”, “yeah” as words. Ignore punctuation sequences (e.g., “...”, “—”) for word counts.
@@ -84,12 +78,14 @@ Global constraints
 5.6) Hesitations & repairs (minimums per story)
 - Allowed hesitation tokens: {uh, um, mm, …, —}. Repairs include simple restarts (“I, I…”, “I started… no, I”).
 - Minimum counts by age:
-  - 60: ≥ 2 hesitations OR 1 repair
   - 63: ≥ 3 hesitations OR 1–2 repairs
-  - 66: ≥ 4 hesitations OR 2 repairs
-  - 69: ≥ 6 hesitations OR 3 repairs
-  - 72: ≥ 8 hesitations OR 3–4 repairs
-  - 75: ≥ 10 hesitations OR 4 repairs
+  - 66: ≥ 4 hesitations OR 2-3 repairs
+  - 69: ≥ 6-8 hesitations OR 3 repairs
+  - 72: ≥ 8-9 hesitations OR 3–4 repairs
+  - 75: ≥ 9-10 hesitations OR 4-5 repairs
+- Choose hesitations based on deterioration age s:
+  - If age < s: prefer lower range.
+  - If age ≥ s: prefer higher range.
 - Include at least one soft admission of uncertainty after age 66 (e.g., “I don’t remember,” “I got mixed up”), increasing in frequency with age. Do not mention any diagnosis.
 
 5.7) Consistency constraints
