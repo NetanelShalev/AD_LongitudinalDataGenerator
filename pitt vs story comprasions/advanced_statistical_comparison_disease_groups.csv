@@ -1,10 +1,10 @@
 Metric,Value,Interpretation
-Hotelling_T2,486.3660387813812,***
-F_Statistic,52.78024716286449,"F(9, 335)"
+Hotelling_T2,536.3128206524167,***
+F_Statistic,58.20045186866199,"F(9, 335)"
 Multivariate_P_Value,1.1102230246251565e-16,Multivariate difference significance
-LDA_Accuracy,0.9478260869565217,±0.038
-Euclidean_Distance,1613.398242819861,Raw distance
-Standardized_Distance,3.306414762934585,Normalized distance
-Mahalanobis_Distance,3.0773358846308434,Covariance-adjusted distance
-Multivariate_Eta_Squared,0.5864311004294523,Proportion of variance explained
-Mean_Abs_Cohens_D,0.9237614439147028,Average individual effect size
+LDA_Accuracy,0.9594202898550724,±0.017
+Euclidean_Distance,1660.4847493513926,Raw distance
+Standardized_Distance,3.6204240065320215,Normalized distance
+Mahalanobis_Distance,3.4418752044436705,Covariance-adjusted distance
+Multivariate_Eta_Squared,0.609922666946324,Proportion of variance explained
+Mean_Abs_Cohens_D,0.9923049851987437,Average individual effect size
