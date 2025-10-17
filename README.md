@@ -38,20 +38,20 @@ The workflow was divided into two main phases: persona creation and story genera
 
 ### 1. Persona and Core Memory Creation
 
-The foundation of our dataset is a set of 10 distinct, richly detailed personas. Drawing inspiration from the "tiny troupe" schema, we used a dedicated prompt to create each persona as a JSON file. These files encapsulate a wide range of attributes for each character, including:
+The foundation of our dataset is a set of 10 distinct, richly detailed personas. Drawing inspiration from the [TinyTroupe](https://github.com/microsoft/TinyTroupe) schema, we used a dedicated prompt to create each persona as a JSON file. These files encapsulate a wide range of attributes for each character, including:
 
 *   **Demographics:** Name, age, and gender.
 *   **Narrative Identity:** A detailed `persona_summary`, personal `background`, and life `goals`.
 *   **Psychological Profile:** `beliefs`, `personality_traits`, and current `mental_state`.
 *   **Clinical Anchor:** A specific `start_deterioration_age` to mark the onset of cognitive decline for the dementia group.
 
-This structured approach ensured that the language model had a deep and consistent character profile to draw from. After initial experiments, we found that generating varied yet coherent stories required a narrative anchor. To solve this, we introduced a `core_memory` for each persona—a significant life event that serves as the thematic basis for all their stories. This core memory was added as a field to each persona's JSON file, providing a stable foundation for the agent to build upon for each generated story.
+This structured approach ensured that the language model had a deep and consistent character profile to draw from. After initial experiments, we found that generating varied yet coherent stories required a narrative anchor. To solve this, we introduced a `core_memory` for each persona - a significant life event that serves as the thematic basis for all their stories. This core memory was added as a field to each persona's JSON file, providing a stable foundation for the agent to build upon for each generated story.
 
-### 2. Story Generation with a Custom Agent
+### 2. Story Generation with Copilot Custom Agent
 
 Our process for generating stories evolved significantly through experimentation:
 
-1.  **Initial Approach:** We began by using the Chat-GPT UI with the GPT-4o model. However, this method proved to be unscalable and required extensive manual intervention.
+1.  **Initial Approach:** We began by using the ChatGPT UI with the GPT-4o model. However, this method proved to be unscalable and required extensive manual intervention.
 
 2.  **Transition to Automation:** To streamline the process, we transitioned to using a Copilot agent. We developed a custom agent specifically designed for our story generation task.
 
@@ -69,7 +69,7 @@ Our process for generating stories evolved significantly through experimentation
 
 ## Evaluation
 
-To validate the quality and authenticity of our synthetic dataset, we conducted a three-pronged evaluation. For every evaluation, we used a control group of stories generated from the same personas but without the AD diagnosis, allowing for a direct comparison between "healthy" and "dementia" narratives.
+To validate the quality and authenticity of our synthetic dataset, we conducted a three-part evaluation. For every evaluation, we used a control group of stories generated from the same personas but without the AD diagnosis, allowing for a direct comparison between "healthy" and "dementia" narratives.
 
 ### 1. AD Detection Model
 
@@ -77,54 +77,53 @@ We employed a `bert-base-uncased` model, fine-tuned for Alzheimer's disease clas
 
 For each persona, we processed their stories chronologically. The model's predictions allowed us to track the probability of AD as the persona aged. We observed that for personas with a defined `start_deterioration_age`, the model's predicted probability for AD significantly increased in the stories generated for subsequent years, aligning with our project's goal of simulating cognitive decline. We visualized this progression by plotting the AD probability against the years since the onset of deterioration, which clearly demonstrated the model's ability to detect the linguistic changes introduced by our custom agent.
 
-![AD Probability Progression for Disease Group](results/image-1.png)
+![AD Probability Progression for Disease Group](results/AD-Probability-Progression-Over-Time-sick.png)
 *Figure 1: AD probability progression for the dementia group, showing an increase after the designated start of deterioration.*
 
-![AD Probability Progression for Control Group](results/image.png)
+![AD Probability Progression for Control Group](results/AD-Probability-Progression-Over-Time-control.png.png)
 *Figure 2: AD probability progression for the healthy control group, showing stable, low probabilities over time.*
 
-### 2. Comparison with `losst-ad` Research
+### 2. Comparison with LoSST-AD Research
 
-We also compared the extracted linguistic features from our dataset against the findings reported in the `losst-ad` research paper. This served as an additional benchmark to ensure our synthetic data aligns with established linguistic markers of Alzheimer's disease found in other scientific literature.
+We also compared the extracted linguistic features from our dataset against the findings reported in the [LoSST-AD](https://aclanthology.org/2024.lrec-main.944.pdf) research paper. This served as an additional benchmark to ensure our synthetic data aligns with established linguistic markers of Alzheimer's disease found in other scientific literature.
+
+As part of this comparison, we used **nine linguistic features**, chosen for their relevance in indicating cognitive decline:
+1. **Noun Token Ratio:** Proportion of nouns, indicating semantic content.  
+2. **Hapax Legomena Ratio:** Frequency of words used only once, a measure of lexical richness.  
+3. **Dis Legomena Ratio:** Frequency of words used once or twice.  
+4. **Brunet's Index:** A measure of lexical diversity, robust to text length.  
+5. **Type-Token Ratio (TTR):** Ratio of unique words to total words.  
+6. **Adposition Frequency:** Frequency of prepositions and postpositions.  
+7. **N-Gram Repetitions:** Repetitive use of unigrams and bigrams, a sign of disfluency.  
+8. **Word Frequency (SUBTL):** Average word frequency based on the SUBTL database.  
+9. **Word Frequency (Zipf):** Average word frequency based on the Zipf scale.  
 
 *Figure 3: Linguistic feature comparison from Ulla & Anna's study.*
-![Ulla & Anna Feature Comparison](results/image-3.png)
+![Ulla & Anna Feature Comparison](results/LoSST-AD-results.png)
 
 *Figure 4: Linguistic feature comparison from our synthetic dataset.*
-![Our Feature Comparison](results/image-2.png)
+![Our Feature Comparison](results/synthetic-results.png)
 
 ### 3. Linguistic Feature Comparison (Pitt Corpus)
 
-A core part of our evaluation was a detailed linguistic analysis comparing our synthetic data to the well-established Pitt Corpus. We extracted nine linguistic features, chosen for their relevance in indicating cognitive decline:
-
-1.  **Noun Token Ratio:** Proportion of nouns, indicating semantic content.
-2.  **Hapax Legomena Ratio:** Frequency of words used only once, a measure of lexical richness.
-3.  **Dis Legomena Ratio:** Frequency of words used once or twice.
-4.  **Brunet's Index:** A measure of lexical diversity, robust to text length.
-5.  **Type-Token Ratio (TTR):** Ratio of unique words to total words.
-6.  **Adposition Frequency:** Frequency of prepositions and postpositions.
-7.  **N-Gram Repetitions:** Repetitive use of unigrams and bigrams, a sign of disfluency.
-8.  **Word Frequency (SUBTL):** Average word frequency based on the SUBTL database.
-9.  **Word Frequency (Zipf):** Average word frequency based on the Zipf scale.
-
+A core part of our evaluation was a detailed linguistic analysis comparing our synthetic data to the well-established Pitt Corpus.
 We performed statistical tests (t-tests, Cohen's d) to compare the feature distributions between the control and disease groups within our synthetic dataset, and also between our synthetic data and the Pitt Corpus.
 
 The results showed that our synthetic data mirrored many of the linguistic patterns observed in the real-world Pitt Corpus data, with several features showing statistically significant differences between the healthy and dementia groups in the same direction as the Pitt data. This provides strong evidence for the linguistic validity of our generated dataset.
 
-![Feature-by-Feature Comparison](results/image-4.png)
+![Feature-by-Feature Comparison](results/pitt-comparison.png)
 *Figure 5: Detailed feature-by-feature comparison between the Pitt Corpus and our synthetic story data.*
 
 <br>
 
-![Mean Differences Comparison](results/image-5.png)
+![Mean Differences Comparison](results/pitt-statistical-tests-compariosn.png)
 *Figure 6: Visualization of mean differences in linguistic features between the Pitt and our synthetic datasets for both control and disease groups.*
 
---- 
 The results of all evaluations are available in the project's source code, including detailed Jupyter notebooks: 
-- `AD detection.ipynb`,
-- `multi_groups_analysis.ipynb`,
+- `AD detection.ipynb`
+- `multi_groups_analysis.ipynb`
 - `pitt_linguistic_analysis_notebook.ipynb`
---- 
+
 
 ### 4. Conclusion and Future Work
 
