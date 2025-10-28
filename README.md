@@ -99,10 +99,10 @@ As part of this comparison, we used **nine linguistic features**, chosen for the
 9. **Word Frequency (Zipf):** Average word frequency based on the Zipf scale.  
 
 *Figure 3: Linguistic feature comparison from Ulla & Anna's study.*
-![Ulla & Anna Feature Comparison](results/LoSST-AD-results2.png)
+![Ulla & Anna Feature Comparison](results/LoSST-AD-results.png)
 
 *Figure 4: Linguistic feature comparison from our synthetic dataset.*
-![Our Feature Comparison](results/synthetic-results.png)
+![Our Feature Comparison](results/synthetic-results2.png)
 
 ### 3. Linguistic Feature Comparison (Pitt Corpus)
 
