@@ -98,11 +98,11 @@ As part of this comparison, we used **nine linguistic features**, chosen for the
 8. **Word Frequency (SUBTL):** Average word frequency based on the SUBTL database.  
 9. **Word Frequency (Zipf):** Average word frequency based on the Zipf scale.  
 
-*Figure 3: Linguistic feature comparison from Ulla & Anna's study.*
 ![Ulla & Anna Feature Comparison](results/LoSST-AD-results.png)
+*Figure 3: Linguistic feature comparison from Ulla & Anna's study.*
 
-*Figure 4: Linguistic feature comparison from our synthetic dataset.*
 ![Our Feature Comparison](results/synthetic-results2.png)
+*Figure 4: Linguistic feature comparison from our synthetic dataset.*
 
 ### 3. Linguistic Feature Comparison (Pitt Corpus)
 
